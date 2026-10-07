@@ -11,7 +11,7 @@ Website + Android app with <b>offline, on-device AI</b> · English · தமி�
 | What | Link | Details |
 |---|---|---|
 | 📱 **Android app (APK)** | **[Download RabiesPulse-AI-v1.0.apk](https://github.com/cbrethick/RabiesPulse-AI/releases/latest/download/RabiesPulse-AI-v1.0.apk)** | 400 MB · Android 7.0+ · about 3 GB RAM · works **offline** (AI inside) |
-| 🌐 **Website** | *add your Vercel link here after deploying* | Any browser, phone or desktop |
+| 🌐 **Website** | *https://rabiespulse-ai.vercel.app/* | Any browser, phone or desktop |
 | 📄 **Project report** | [REPORT.md](REPORT.md) | Status, datasets, results |
 | 🗂️ **Build history** | [docs/BUILD_HISTORY.md](docs/BUILD_HISTORY.md) | Everything done, start to end |
 
