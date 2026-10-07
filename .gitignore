@@ -14,3 +14,7 @@ data/raw/osm_tiles/
 *.jks
 .env
 *.log
+.env.local
+.env.*.local
+dist-officer
+.env*

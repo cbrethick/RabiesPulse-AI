@@ -72,7 +72,7 @@ const cache = new Map<string, Promise<unknown>>();
 
 export function load<T>(file: string): Promise<T> {
   if (!cache.has(file)) {
-    const p = fetch(`./data/${file}`).then((r) => {
+    const p = fetch(`./data/${file}?v=3`).then((r) => {
       if (!r.ok) throw new Error(`${file}: ${r.status}`);
       return r.json();
     });

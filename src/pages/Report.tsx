@@ -2,7 +2,7 @@ import { useEffect, useState, type FormEvent } from 'react';
 import { Camera, CheckCircle2, Crosshair, X, ClipboardList, Plus, ShieldAlert } from 'lucide-react';
 import { go, useApp, useRoute } from '../lib/app';
 import { coarse, getPosition, type GeoErr } from '../lib/geo';
-import { saveReport, shrinkImage } from '../lib/reports';
+import { listReports, saveReport, shrinkImage, syncReports } from '../lib/reports';
 import { ErrorBox, Topbar } from '../components/ui';
 import type { Key } from '../lib/i18n';
 
@@ -38,6 +38,7 @@ export default function Report() {
   const [preview, setPreview] = useState<string | null>(null);
   const [err, setErr] = useState(false);
   const [done, setDone] = useState(false);
+  const [sent, setSent] = useState<'yes' | 'no' | null>(null);
 
   useEffect(() => {
     if (!photo) return setPreview(null);
@@ -64,8 +65,9 @@ export default function Report() {
   async function submit(e: FormEvent) {
     e.preventDefault();
     if (!animal || !type) return setErr(true);
+    const id = crypto.randomUUID();
     await saveReport({
-      id: crypto.randomUUID(),
+      id,
       owner: user!,
       createdAt: new Date().toISOString(),
       date,
@@ -78,6 +80,9 @@ export default function Report() {
       photo: photo || undefined,
     });
     setDone(true);
+    setSent(null);
+    await syncReports(user!);
+    setSent((await listReports(user!)).find((r) => r.id === id)?.synced ? 'yes' : 'no');
   }
 
   if (done)
@@ -88,6 +93,7 @@ export default function Report() {
           <div className="empty" style={{ color: 'var(--text)' }}>
             <CheckCircle2 size={56} color="var(--accent-ink)" />
             <h2>{t('saved')}</h2>
+            <b>{sent === 'yes' ? `✓ ${t('sentOk')}` : sent === 'no' ? t('notSent') : t('sending')}</b>
           </div>
           <div className="card warn stack small">
             <b>{t('savedNote')}</b>

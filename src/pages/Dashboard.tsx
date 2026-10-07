@@ -310,7 +310,7 @@ const Kpi = ({ v, l }: { v: string; l: string }) => (
 );
 
 /** Grouped bars: two official sources for the same state-level measure. One axis, shared scale. */
-function BitesChart({ meta }: { meta: Meta }) {
+export function BitesChart({ meta }: { meta: Meta }) {
   const [hover, setHover] = useState<{ x: number; y: number; text: string } | null>(null);
   const years = ['2018', '2019', '2020', '2021', '2022', '2023', '2024'];
   const rs = new Map(meta.dogBites.filter((b) => b.metric === 'dog_bite_cases_rs').map((b) => [b.year, b.value]));

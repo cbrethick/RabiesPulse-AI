@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import { Trash2, Download, Plus, MapPin, FileText } from 'lucide-react';
+import { Trash2, Download, Plus, MapPin, FileText, CloudUpload, CheckCircle2 } from 'lucide-react';
 import { go, useApp } from '../lib/app';
-import { deleteReport, listReports, type Report } from '../lib/reports';
+import { deleteReport, listReports, syncReports, type Report } from '../lib/reports';
 import { Spinner, Topbar } from '../components/ui';
 import { native } from '../lib/ai';
 import { animalKey, typeKey } from './Report';
@@ -22,8 +22,15 @@ export default function MyReports() {
   const [confirm, setConfirm] = useState<string | null>(null);
 
   const refresh = () => listReports(user!).then(setRows).catch(() => setRows([]));
+  const [sending, setSending] = useState(false);
+  async function upload() {
+    setSending(true);
+    await syncReports(user!);
+    await refresh();
+    setSending(false);
+  }
   useEffect(() => {
-    refresh();
+    void upload();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user]);
 
@@ -77,6 +84,15 @@ export default function MyReports() {
                 </div>
               )}
               {r.note && <p className="small">{r.note}</p>}
+              {r.synced ? (
+                <div className="small row" style={{ gap: 4, color: 'var(--accent-ink)' }}>
+                  <CheckCircle2 size={14} /> {t('sentOk')}
+                </div>
+              ) : (
+                <button className="btn sm primary" style={{ alignSelf: 'flex-start' }} onClick={upload} disabled={sending}>
+                  <CloudUpload size={16} /> {sending ? t('sending') : t('sendNow')}
+                </button>
+              )}
             </div>
             <button
               className={`btn sm${confirm === r.id ? ' danger' : ''}`}

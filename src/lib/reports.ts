@@ -1,4 +1,7 @@
-// Incident reports live in IndexedDB on this device only. Nothing is uploaded.
+// Incident reports live in IndexedDB on this device. An anonymous copy (date, animal,
+// exposure type, ward) is sent to the officer dashboard; photo, note and position stay here.
+import { cloudOn, sendReport, wardOf } from './cloud';
+import { load, type Ward } from './data';
 export interface Report {
   id: string;
   owner: string;
@@ -11,6 +14,8 @@ export interface Report {
   lon?: number;
   note?: string;
   photo?: Blob;
+  /** True once the anonymous copy reached the officer dashboard. */
+  synced?: boolean;
 }
 
 const DB = 'rabiespulse';
@@ -44,6 +49,28 @@ export const deleteReport = (id: string) => tx('readwrite', (s) => s.delete(id))
 export async function listReports(owner: string): Promise<Report[]> {
   const all = await tx<Report[]>('readonly', (s) => s.index('owner').getAll(owner));
   return all.sort((a, b) => b.createdAt.localeCompare(a.createdAt));
+}
+
+let syncing = false;
+/** Send every report that has not reached the dashboard yet. Safe to call often; failures retry next time. */
+export async function syncReports(owner: string) {
+  if (!cloudOn || syncing) return;
+  syncing = true;
+  try {
+    const pending = (await listReports(owner)).filter((r) => !r.synced);
+    if (!pending.length) return;
+    const [geo, wards] = await Promise.all([load<GeoJSON.FeatureCollection>('wards.geojson'), load<Ward[]>('wards.json')]);
+    for (const r of pending) {
+      const ward = r.lat != null && r.lon != null ? wardOf(r.lat, r.lon, geo) : null;
+      const zone = ward ? (wards.find((w) => w.ward === ward)?.zoneName ?? null) : null;
+      await sendReport({ id: r.id, incident_date: r.date, animal: r.animal, exposure: r.exposure, ward, zone, lat: r.lat != null ? Math.round(r.lat * 100) / 100 : null, lon: r.lon != null ? Math.round(r.lon * 100) / 100 : null });
+      await saveReport({ ...r, synced: true });
+    }
+  } catch {
+    /* offline or server asleep: try again on the next call */
+  } finally {
+    syncing = false;
+  }
 }
 
 export async function deleteAllReports(owner: string) {

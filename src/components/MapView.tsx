@@ -12,6 +12,10 @@ export interface WardLayer {
   color: (ward: string) => string | null;
   onWard?: (ward: string) => void;
   selected?: string | null;
+  /** Hover text for a ward. */
+  tip?: (ward: string) => string;
+  /** Zoom to show every ward when the map first draws. */
+  fit?: boolean;
 }
 
 interface Props {
@@ -26,17 +30,21 @@ interface Props {
   fitKey?: string;
   /** With an origin: zoom so the origin and these places are all visible. */
   fitPoints?: LatLon[];
+  /** Extra labelled dots (e.g. live community reports per ward). */
+  pins?: { lat: number; lon: number; label: string; n: number }[];
 }
 
 const ATTR = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
 
-export default function MapView({ facilities = [], origin, onTap, onFacility, wards, focus, short, fitKey, fitPoints }: Props) {
+export default function MapView({ facilities = [], origin, onTap, onFacility, wards, focus, short, fitKey, fitPoints, pins }: Props) {
   const { t } = useApp();
   const el = useRef<HTMLDivElement>(null);
   const map = useRef<L.Map | null>(null);
   const layer = useRef<L.LayerGroup | null>(null);
   const wardLayer = useRef<L.GeoJSON | null>(null);
   const youLayer = useRef<L.LayerGroup | null>(null);
+  const pinLayer = useRef<L.LayerGroup | null>(null);
+  const fitted = useRef(false);
   const [tileError, setTileError] = useState(false);
   const themeKey = useThemeKey();
   const cb = useRef({ onTap, onFacility, onWard: wards?.onWard });
@@ -58,6 +66,7 @@ export default function MapView({ facilities = [], origin, onTap, onFacility, wa
     m.on('click', (e: L.LeafletMouseEvent) => cb.current.onTap?.({ lat: e.latlng.lat, lon: e.latlng.lng }));
     layer.current = L.layerGroup().addTo(m);
     youLayer.current = L.layerGroup().addTo(m);
+    pinLayer.current = L.layerGroup().addTo(m);
     map.current = m;
     const ro = new ResizeObserver(() => m.invalidateSize());
     ro.observe(el.current);
@@ -84,6 +93,7 @@ export default function MapView({ facilities = [], origin, onTap, onFacility, wa
         return { color: sel ? line : cssVar('--surface') || '#fff', weight: sel ? 3 : 0.8, fillColor: c || 'transparent', fillOpacity: c ? 0.75 : 0, opacity: 1 };
       },
       onEachFeature: (f, lyr) => {
+        if (wards.tip) lyr.bindTooltip(() => wards.tip!(f.properties.ward), { sticky: true });
         lyr.on('click', (e) => {
           L.DomEvent.stopPropagation(e);
           cb.current.onWard?.(f.properties.ward);
@@ -91,6 +101,11 @@ export default function MapView({ facilities = [], origin, onTap, onFacility, wa
       },
     }).addTo(m);
     wardLayer.current.bringToBack();
+    if (wards.fit && !fitted.current) {
+      fitted.current = true;
+      m.options.zoomSnap = 0.25;
+      m.fitBounds(wardLayer.current.getBounds(), { padding: [4, 4], animate: false });
+    }
   }, [wards, themeKey]);
 
   // facility markers
@@ -112,6 +127,25 @@ export default function MapView({ facilities = [], origin, onTap, onFacility, wa
       mk.addTo(g);
     }
   }, [facilities, themeKey]);
+
+  // extra dots
+  useEffect(() => {
+    const g = pinLayer.current;
+    if (!g) return;
+    g.clearLayers();
+    for (const p of pins ?? []) {
+      L.circleMarker([p.lat, p.lon], { radius: 6 + Math.min(p.n, 6), color: cssVar('--surface') || '#fff', weight: 2, fillColor: cssVar('--c-you'), fillOpacity: 1 })
+        .bindTooltip(p.label, { direction: 'top', offset: [0, -6] })
+        .addTo(g);
+    }
+    // widen the view when a dot falls outside it (e.g. a report from outside the ward map)
+    const m = map.current;
+    if (m && pins?.some((p) => !m.getBounds().contains([p.lat, p.lon]))) {
+      const b = wardLayer.current?.getBounds() ?? m.getBounds();
+      pins.forEach((p) => b.extend([p.lat, p.lon]));
+      m.fitBounds(b, { padding: [24, 24], animate: false });
+    }
+  }, [pins, themeKey]);
 
   // user / chosen location
   useEffect(() => {

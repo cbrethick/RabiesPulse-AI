@@ -1,4 +1,4 @@
-import { Siren, MapPin, BookOpen, FilePlus2, BarChart3, ClipboardList, Settings as Gear, Phone, Bot } from 'lucide-react';
+import { Siren, MapPin, BookOpen, FilePlus2, ClipboardList, Settings as Gear, Phone, Bot } from 'lucide-react';
 import { go, useApp } from '../lib/app';
 import { native } from '../lib/ai';
 
@@ -8,7 +8,6 @@ export default function Home() {
     { to: '/care', icon: MapPin, label: t('tile_care') },
     { to: '/learn', icon: BookOpen, label: t('tile_learn') },
     { to: '/report', icon: FilePlus2, label: t('tile_report') },
-    { to: '/dashboard', icon: BarChart3, label: t('tile_dash') },
     { to: '/reports', icon: ClipboardList, label: t('tile_reports') },
     { to: '/settings', icon: Gear, label: t('tile_settings') },
   ];

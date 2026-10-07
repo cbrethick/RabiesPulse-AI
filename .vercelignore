@@ -1,0 +1,13 @@
+/android
+/release
+/data
+/design
+/docs
+/dist
+/dist-officer
+/tests
+/scripts
+/supabase
+*.apk
+*.litertlm
+.env*

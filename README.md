@@ -10,8 +10,8 @@ Website + Android app with <b>offline, on-device AI</b> · English · தமி�
 
 | What | Link | Details |
 |---|---|---|
-| 📱 **Android app (APK)** | **[Download RabiesPulse-AI-v1.0.apk](https://github.com/cbrethick/RabiesPulse-AI/releases/latest/download/RabiesPulse-AI-v1.0.apk)** | 400 MB · Android 7.0+ · about 3 GB RAM · works **offline** (AI inside) |
-| 🌐 **Website** | *https://rabiespulse-ai.vercel.app/* | Any browser, phone or desktop |
+| 📱 **Android app (APK)** | **[Download RabiesPulse-AI-v1.3.apk](https://github.com/cbrethick/RabiesPulse-AI/releases/latest/download/RabiesPulse-AI-v1.3.apk)** | 400 MB · Android 7.0+ · about 3 GB RAM · works **offline** (AI inside) |
+| 🌐 **Officer dashboard (website)** | *https://rabiespulse-ai.vercel.app/* | Any browser, phone or desktop · officer login |
 | 📄 **Project report** | [REPORT.md](REPORT.md) | Status, datasets, results |
 | 🗂️ **Build history** | [docs/BUILD_HISTORY.md](docs/BUILD_HISTORY.md) | Everything done, start to end |
 
@@ -125,8 +125,8 @@ cd android && ./gradlew assembleRelease
 
 **Publish the APK to the download link above:**
 1. On GitHub, open **Releases → Draft a new release**.
-2. Tag it **v1.0**.
-3. Drag in **`RabiesPulse-AI-v1.0.apk`**. Keep this exact file name.
+2. Tag it **v1.3**.
+3. Drag in **`RabiesPulse-AI-v1.3.apk`**. Keep this exact file name.
 4. Click **Publish**.
 
 ---

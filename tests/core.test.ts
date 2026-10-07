@@ -141,3 +141,75 @@ describe('offline answer bank', () => {
       }
   });
 });
+
+import sim from '../public/data/sim.json';
+import { DEFAULT_WEIGHTS, FACTORS, FACTOR_INFO, allRisk, levelOf, priority, recommend, wardRisk, type Sim, type SimWard } from '../src/lib/risk';
+import type { Ward } from '../src/lib/data';
+
+describe('simulated demo dataset', () => {
+  const s = sim as unknown as Sim;
+  it('is labelled simulated and covers every real ward for 24 months', () => {
+    expect(s.simulated).toBe(true);
+    expect(s.label).toMatch(/SIMULATED/);
+    expect(s.months).toHaveLength(24);
+    expect(Object.keys(s.wards).sort()).toEqual((wards as { ward: string }[]).map((w) => w.ward).sort());
+  });
+  it('breakdowns add up to the case count', () => {
+    for (const w of Object.values(s.wards)) {
+      w.cases.forEach((c, i) => {
+        expect(w.dog[i] + w.cat[i] + w.monkey[i] + w.other[i]).toBe(c);
+        expect(w.a0[i] + w.a1[i] + w.a2[i]).toBe(c);
+        expect(w.completed[i]).toBeLessThanOrEqual(c);
+        expect(w.dogVax[i]).toBeGreaterThanOrEqual(0);
+        expect(w.dogVax[i]).toBeLessThanOrEqual(100);
+      });
+    }
+  });
+});
+
+describe('rabies risk indicator', () => {
+  const ward = { ward: 'T', label: 'Ward T', zoneName: 'Z', population: 10000, nearestArvKm: 10 } as Ward;
+  const flat = (cases: number, completed: number, dogVax: number): SimWard => {
+    const a = (v: number) => [v, v, v];
+    return { cases: a(cases), dog: a(cases), cat: a(0), monkey: a(0), other: a(0), a0: a(0), a1: a(cases), a2: a(0), completed: a(completed), dogVax: a(dogVax) };
+  };
+  it('scores 100 when every factor is at its worst and 0 at its best', () => {
+    expect(wardRisk(ward, flat(15, 0, 20), 2).score).toBe(100);
+    expect(wardRisk({ ...ward, nearestArvKm: 0 }, flat(0, 0, 80), 2).score).toBe(0);
+  });
+  it('uses the published weights', () => {
+    const r = wardRisk({ ...ward, nearestArvKm: 0 }, flat(15, 15, 80), 2);
+    expect(r.score).toBe(35);
+    expect(r.drivers).toEqual(['incidence']);
+    expect(DEFAULT_WEIGHTS).toEqual({ incidence: 35, lowVax: 25, dropout: 20, access: 20 });
+  });
+  it('recommends actions only from the ward drivers', () => {
+    const r = wardRisk({ ...ward, nearestArvKm: 0 }, flat(1, 1, 20), 2);
+    expect(r.drivers[0]).toBe('lowVax');
+    expect(recommend(r)[0].action).toBe(FACTOR_INFO.lowVax.action);
+  });
+  it('maps scores to levels', () => {
+    expect([0, 25, 50, 75, 100].map((v) => levelOf(v).id)).toEqual(['low', 'moderate', 'high', 'veryHigh', 'veryHigh']);
+  });
+  it('ranks the real wards and keeps points equal to the score', () => {
+    const rows = allRisk(wards as unknown as Ward[], s, 23);
+    expect(rows).toHaveLength((wards as unknown[]).length);
+    const top = priority(rows, 10);
+    expect(top).toHaveLength(10);
+    expect(top[0].score).toBeGreaterThanOrEqual(top[9].score);
+    for (const r of rows) expect(Math.abs(FACTORS.reduce((a, f) => a + r.points[f], 0) - r.score)).toBeLessThan(0.06);
+  });
+  const s = sim as unknown as Sim;
+});
+
+import { wardOf } from '../src/lib/cloud';
+import wardGeo from '../public/data/wards.geojson?raw';
+
+describe('ward lookup for anonymous reports', () => {
+  const geo = JSON.parse(wardGeo as string) as GeoJSON.FeatureCollection;
+  it('finds the ward for a point inside Chennai and null outside', () => {
+    const w = (wards as { ward: string; lat: number; lon: number }[])[0];
+    expect(wardOf(w.lat, w.lon, geo)).toBe(w.ward);
+    expect(wardOf(12.0, 79.0, geo)).toBeNull();
+  });
+});

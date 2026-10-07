@@ -173,6 +173,16 @@ Bugs found and fixed:
 - Bug found: the specialist filter `ent\b` matched "Govern**ment**" and hid all OSM govt hospitals from Best nearby. Fixed with word boundaries.
 - A "medical college" govt rule would have wrongly marked SRM (a private college) as government, so that rule was removed.
 
+### Step 11 — Officer dashboard as a second app (hackathon theme: "Rabies Data Analytics and Hotspot Dashboard")
+- Two apps from one codebase: `index.html` = citizen app (APK), `officer.html` = officer dashboard (website, `/officer` on Vercel).
+- `scripts/simulate_data.py` (fixed seed, standard library only) writes **SIMULATED** ward × month data for the wards in `wards.json` (24 months): bite cases, animal type, age group, vaccine-course completion, dog vaccination coverage. Outputs `public/data/sim.json` and `data/simulated/ward_month_SIMULATED.csv`.
+  - Real inputs: ward boundaries, WorldPop population, distance to the nearest listed anti-rabies clinic.
+  - The base bite rate is an assumed demo parameter, not a Chennai estimate. The official Tamil Nadu 2023→2024 change is used only as the yearly trend, and the simulated total is checked to stay below the official state total.
+- `src/lib/risk.ts`: **Rabies Risk Indicator** (demonstration score, not an outbreak prediction) = 35% bite incidence + 25% low dog vaccination + 20% vaccine-course dropout + 20% poor access. Fixed 0–100 scales, levels at 25/50/75, drivers and recommended actions taken from each ward's own score parts.
+- `src/officer/Officer.tsx`: ward risk map with month slider and play, zone filter, 5 map layers, ward detail, Top 10 priority wards with actions, CSV/print export, trend, risk-level and factor charts, weight sliders, official reference chart. Every simulated card carries a SIMULATED DATA tag.
+- Tests: 29 passing. Checked in Chrome on the built app: slider, zone filter and ward selection update the map, numbers and priority list; the citizen app still loads.
+- Not yet done: Supabase live reports (keys are in `.env.local`, git-ignored), Gemini "ask the data", server-wake loading state, Vercel deploy, new APK build.
+
 ---
 
 ## 3. File map
