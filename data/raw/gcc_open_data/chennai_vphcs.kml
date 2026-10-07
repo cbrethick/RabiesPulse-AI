@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>chennai_vphcs.geojson</name>
+	<Schema name="chennai_vphcs" id="J_chennai_vphcs_SDISIIS">
+		<SimpleField type="string" name="ADDRESS"><displayName>ADDRESS</displayName>
+</SimpleField>
+		<SimpleField type="double" name="CONTACT"><displayName>CONTACT</displayName>
+</SimpleField>
+		<SimpleField type="int" name="DIV"><displayName>DIV</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FINAL_CODE"><displayName>FINAL_CODE</displayName>
+</SimpleField>
+		<SimpleField type="int" name="OBJECTID"><displayName>OBJECTID</displayName>
+</SimpleField>
+		<SimpleField type="int" name="SL_NO"><displayName>SL_NO</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ZN"><displayName>ZN</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="chennai_vphcs_style">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>$[chennai_vphcs/ADDRESS/displayName]</b></td><td>$[chennai_vphcs/ADDRESS]</td></tr>
+  <tr><td><b>$[chennai_vphcs/CONTACT/displayName]</b></td><td>$[chennai_vphcs/CONTACT]</td></tr>
+  <tr><td><b>$[chennai_vphcs/DIV/displayName]</b></td><td>$[chennai_vphcs/DIV]</td></tr>
+  <tr><td><b>$[chennai_vphcs/FINAL_CODE/displayName]</b></td><td>$[chennai_vphcs/FINAL_CODE]</td></tr>
+  <tr><td><b>$[chennai_vphcs/OBJECTID/displayName]</b></td><td>$[chennai_vphcs/OBJECTID]</td></tr>
+  <tr><td><b>$[chennai_vphcs/SL_NO/displayName]</b></td><td>$[chennai_vphcs/SL_NO]</td></tr>
+  <tr><td><b>$[chennai_vphcs/ZN/displayName]</b></td><td>$[chennai_vphcs/ZN]</td></tr>
+</table>
+$[description]]]></text>
+		</BalloonStyle>
+	</Style>
+	<Placemark>
+		<styleUrl>#chennai_vphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_vphcs_SDISIIS">
+				<SimpleData name="ADDRESS">Thiru.Vi.Ka. Nagar.Pet Clinic</SimpleData>
+				<SimpleData name="CONTACT">9445026042</SimpleData>
+				<SimpleData name="DIV">68</SimpleData>
+				<SimpleData name="FINAL_CODE">VPHC01</SimpleData>
+				<SimpleData name="OBJECTID">1</SimpleData>
+				<SimpleData name="SL_NO">1</SimpleData>
+				<SimpleData name="ZN">VI</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.233625,13.12092,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_vphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_vphcs_SDISIIS">
+				<SimpleData name="ADDRESS">Nungambakkam Pet Clinic</SimpleData>
+				<SimpleData name="CONTACT">9445026047</SimpleData>
+				<SimpleData name="DIV">110</SimpleData>
+				<SimpleData name="FINAL_CODE">VPHC02</SimpleData>
+				<SimpleData name="OBJECTID">2</SimpleData>
+				<SimpleData name="SL_NO">2</SimpleData>
+				<SimpleData name="ZN">IX</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.241287,13.056919,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_vphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_vphcs_SDISIIS">
+				<SimpleData name="ADDRESS">Kannammapet Pet Clinic</SimpleData>
+				<SimpleData name="CONTACT">9445194745</SimpleData>
+				<SimpleData name="DIV">141</SimpleData>
+				<SimpleData name="FINAL_CODE">VPHC03</SimpleData>
+				<SimpleData name="OBJECTID">3</SimpleData>
+				<SimpleData name="SL_NO">3</SimpleData>
+				<SimpleData name="ZN">X</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.229293,13.03157,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_vphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_vphcs_SDISIIS">
+				<SimpleData name="ADDRESS">Meenambakkam Pet Clinic</SimpleData>
+				<SimpleData name="CONTACT">9445026046</SimpleData>
+				<SimpleData name="DIV">166</SimpleData>
+				<SimpleData name="FINAL_CODE">VPHC04</SimpleData>
+				<SimpleData name="OBJECTID">4</SimpleData>
+				<SimpleData name="SL_NO">4</SimpleData>
+				<SimpleData name="ZN">XII</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.17902599999999,12.981638,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

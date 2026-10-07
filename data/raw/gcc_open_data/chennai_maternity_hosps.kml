@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>chennai_maternity_hosps.geojson</name>
+	<Schema name="chennai_maternity_hosps" id="J_chennai_maternity_hosps_SSSISISISI">
+		<SimpleField type="string" name="ADDRESS"><displayName>ADDRESS</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ASSET_NAME"><displayName>ASSET_NAME</displayName>
+</SimpleField>
+		<SimpleField type="string" name="DEPARTMENT"><displayName>DEPARTMENT</displayName>
+</SimpleField>
+		<SimpleField type="int" name="DIVISION"><displayName>DIVISION</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FINAL_CODE"><displayName>FINAL_CODE</displayName>
+</SimpleField>
+		<SimpleField type="int" name="OBJECTID"><displayName>OBJECTID</displayName>
+</SimpleField>
+		<SimpleField type="string" name="REMARKS"><displayName>REMARKS</displayName>
+</SimpleField>
+		<SimpleField type="int" name="S_NO"><displayName>S_NO</displayName>
+</SimpleField>
+		<SimpleField type="string" name="TYPE"><displayName>TYPE</displayName>
+</SimpleField>
+		<SimpleField type="int" name="ZONE"><displayName>ZONE</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="chennai_maternity_hosps_style">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>$[chennai_maternity_hosps/ADDRESS/displayName]</b></td><td>$[chennai_maternity_hosps/ADDRESS]</td></tr>
+  <tr><td><b>$[chennai_maternity_hosps/ASSET_NAME/displayName]</b></td><td>$[chennai_maternity_hosps/ASSET_NAME]</td></tr>
+  <tr><td><b>$[chennai_maternity_hosps/DEPARTMENT/displayName]</b></td><td>$[chennai_maternity_hosps/DEPARTMENT]</td></tr>
+  <tr><td><b>$[chennai_maternity_hosps/DIVISION/displayName]</b></td><td>$[chennai_maternity_hosps/DIVISION]</td></tr>
+  <tr><td><b>$[chennai_maternity_hosps/FINAL_CODE/displayName]</b></td><td>$[chennai_maternity_hosps/FINAL_CODE]</td></tr>
+  <tr><td><b>$[chennai_maternity_hosps/OBJECTID/displayName]</b></td><td>$[chennai_maternity_hosps/OBJECTID]</td></tr>
+  <tr><td><b>$[chennai_maternity_hosps/REMARKS/displayName]</b></td><td>$[chennai_maternity_hosps/REMARKS]</td></tr>
+  <tr><td><b>$[chennai_maternity_hosps/S_NO/displayName]</b></td><td>$[chennai_maternity_hosps/S_NO]</td></tr>
+  <tr><td><b>$[chennai_maternity_hosps/TYPE/displayName]</b></td><td>$[chennai_maternity_hosps/TYPE]</td></tr>
+  <tr><td><b>$[chennai_maternity_hosps/ZONE/displayName]</b></td><td>$[chennai_maternity_hosps/ZONE]</td></tr>
+</table>
+$[description]]]></text>
+		</BalloonStyle>
+	</Style>
+	<Placemark>
+		<styleUrl>#chennai_maternity_hosps_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_maternity_hosps_SSSISISISI">
+				<SimpleData name="ADDRESS">43, pulla  avenue, shenoy nagar, ch-600 030.</SimpleData>
+				<SimpleData name="ASSET_NAME">UCHC</SimpleData>
+				<SimpleData name="DEPARTMENT">MEDICAL SERVICES DEPARTMENT</SimpleData>
+				<SimpleData name="DIVISION">102</SimpleData>
+				<SimpleData name="FINAL_CODE">EOCU_GCHM2</SimpleData>
+				<SimpleData name="OBJECTID">1</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">2</SimpleData>
+				<SimpleData name="TYPE">MATERNITY HOSPITALS/EMERGENCY OBSTETRIC CARE UNITS(24 X 7)</SimpleData>
+				<SimpleData name="ZONE">8</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2248058,13.0765627,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_maternity_hosps_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_maternity_hosps_SSSISISISI">
+				<SimpleData name="ADDRESS">51, jeenis road, saidapet, ch -15.</SimpleData>
+				<SimpleData name="ASSET_NAME">UCHC</SimpleData>
+				<SimpleData name="DEPARTMENT">MEDICAL SERVICES DEPARTMENT</SimpleData>
+				<SimpleData name="DIVISION">142</SimpleData>
+				<SimpleData name="FINAL_CODE">EOCU_GCHM3</SimpleData>
+				<SimpleData name="OBJECTID">2</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">3</SimpleData>
+				<SimpleData name="TYPE">MATERNITY HOSPITALS/EMERGENCY OBSTETRIC CARE UNITS(24 X 7)</SimpleData>
+				<SimpleData name="ZONE">10</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.22429409999999,13.0208816,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_maternity_hosps_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_maternity_hosps_SSSISISISI">
+				<SimpleData name="ADDRESS">Thoraipakkam UPHC, Govt PHC, Rajiv gandhi salai,panchayat office campus, Okkiyam Thoraipakkam, Ch-97.</SimpleData>
+				<SimpleData name="ASSET_NAME">UCHC</SimpleData>
+				<SimpleData name="DEPARTMENT">MEDICAL SERVICES DEPARTMENT</SimpleData>
+				<SimpleData name="DIVISION">193</SimpleData>
+				<SimpleData name="FINAL_CODE">EOCU_GCHM5</SimpleData>
+				<SimpleData name="OBJECTID">3</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">5</SimpleData>
+				<SimpleData name="TYPE">MATERNITY HOSPITALS/EMERGENCY OBSTETRIC CARE UNITS(24 X 7)</SimpleData>
+				<SimpleData name="ZONE">15</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2410259,12.9483634,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_maternity_hosps_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_maternity_hosps_SSSISISISI">
+				<SimpleData name="ADDRESS">Mugalivakkam UPHC PHC,opp to Panchayat office,Mugalivakkam, Ch-125.</SimpleData>
+				<SimpleData name="ASSET_NAME">UCHC</SimpleData>
+				<SimpleData name="DEPARTMENT">MEDICAL SERVICES DEPARTMENT</SimpleData>
+				<SimpleData name="DIVISION">156</SimpleData>
+				<SimpleData name="FINAL_CODE">EOCU_GCHM4</SimpleData>
+				<SimpleData name="OBJECTID">4</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">4</SimpleData>
+				<SimpleData name="TYPE">MATERNITY HOSPITALS/EMERGENCY OBSTETRIC CARE UNITS(24 X 7)</SimpleData>
+				<SimpleData name="ZONE">12</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.1669806,13.021229,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_maternity_hosps_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_maternity_hosps_SSSISISISI">
+				<SimpleData name="ADDRESS">30, kariappa street, purasaiwalkam, chennai -007.</SimpleData>
+				<SimpleData name="ASSET_NAME">UCHC</SimpleData>
+				<SimpleData name="DEPARTMENT">MEDICAL SERVICES DEPARTMENT</SimpleData>
+				<SimpleData name="DIVISION">58</SimpleData>
+				<SimpleData name="FINAL_CODE">EOCU_GCHM1</SimpleData>
+				<SimpleData name="OBJECTID">5</SimpleData>
+				<SimpleData name="REMARKS"></SimpleData>
+				<SimpleData name="S_NO">1</SimpleData>
+				<SimpleData name="TYPE">MATERNITY HOSPITALS/EMERGENCY OBSTETRIC CARE UNITS(24 X 7)</SimpleData>
+				<SimpleData name="ZONE">5</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2568023,13.0885878,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

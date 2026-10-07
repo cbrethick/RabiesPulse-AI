@@ -1,0 +1,11 @@
+
+[out:json][timeout:90];
+
+{{geocodeArea:Chennai, Tamil Nadu, India}}->.searchArea;
+
+(
+  nwr["amenity"~"^(hospital|clinic|doctors|veterinary)$"](area.searchArea);
+  nwr["healthcare"~"^(hospital|clinic|doctor|veterinary)$"](area.searchArea);
+);
+
+out center tags;

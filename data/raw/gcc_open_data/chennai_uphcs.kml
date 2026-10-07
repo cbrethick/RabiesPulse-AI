@@ -1,0 +1,2559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>chennai_uphcs.geojson</name>
+	<Schema name="chennai_uphcs" id="J_chennai_uphcs_SSISIISI">
+		<SimpleField type="string" name="ADDRESS"><displayName>ADDRESS</displayName>
+</SimpleField>
+		<SimpleField type="string" name="DEPARTMENT"><displayName>DEPARTMENT</displayName>
+</SimpleField>
+		<SimpleField type="int" name="DIVISION"><displayName>DIVISION</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FINAL_CODE"><displayName>FINAL_CODE</displayName>
+</SimpleField>
+		<SimpleField type="int" name="OBJECTID"><displayName>OBJECTID</displayName>
+</SimpleField>
+		<SimpleField type="int" name="S_NO"><displayName>S_NO</displayName>
+</SimpleField>
+		<SimpleField type="string" name="TYPE"><displayName>TYPE</displayName>
+</SimpleField>
+		<SimpleField type="int" name="ZONE"><displayName>ZONE</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="chennai_uphcs_style">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>$[chennai_uphcs/ADDRESS/displayName]</b></td><td>$[chennai_uphcs/ADDRESS]</td></tr>
+  <tr><td><b>$[chennai_uphcs/DEPARTMENT/displayName]</b></td><td>$[chennai_uphcs/DEPARTMENT]</td></tr>
+  <tr><td><b>$[chennai_uphcs/DIVISION/displayName]</b></td><td>$[chennai_uphcs/DIVISION]</td></tr>
+  <tr><td><b>$[chennai_uphcs/FINAL_CODE/displayName]</b></td><td>$[chennai_uphcs/FINAL_CODE]</td></tr>
+  <tr><td><b>$[chennai_uphcs/OBJECTID/displayName]</b></td><td>$[chennai_uphcs/OBJECTID]</td></tr>
+  <tr><td><b>$[chennai_uphcs/S_NO/displayName]</b></td><td>$[chennai_uphcs/S_NO]</td></tr>
+  <tr><td><b>$[chennai_uphcs/TYPE/displayName]</b></td><td>$[chennai_uphcs/TYPE]</td></tr>
+  <tr><td><b>$[chennai_uphcs/ZONE/displayName]</b></td><td>$[chennai_uphcs/ZONE]</td></tr>
+</table>
+$[description]]]></text>
+		</BalloonStyle>
+	</Style>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Krishnampet UPHC, 1,Meccapuram,main street, Ch-5.HP</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">121</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC089</SimpleData>
+				<SimpleData name="OBJECTID">54</SimpleData>
+				<SimpleData name="S_NO">89</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">9</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2762573,13.0461172,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Mirsahibpet UPHC,5 Muthaiah mudali main st,Chennai-14.D</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">120</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC088</SimpleData>
+				<SimpleData name="OBJECTID">55</SimpleData>
+				<SimpleData name="S_NO">88</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">9</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2731132,13.0506075,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">S.M.Nagar UPHC, Dispensary  Ramakamathupuram kalayana Mandapam,   T-nagar , Chennai-17.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">117</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC086</SimpleData>
+				<SimpleData name="OBJECTID">56</SimpleData>
+				<SimpleData name="S_NO">86</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">9</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2355184,13.0492127,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Triplicane UPHC,3 Dr.Besant road, Triplicane, Chennai -5.D</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">116</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC085</SimpleData>
+				<SimpleData name="OBJECTID">57</SimpleData>
+				<SimpleData name="S_NO">85</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">9</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2778035,13.051218,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Pushpa nagar UPHC, Pushpa nagar I main road, Nungampakkam,Ch-34.HP</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">110</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC080</SimpleData>
+				<SimpleData name="OBJECTID">58</SimpleData>
+				<SimpleData name="S_NO">80</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">9</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2392416,13.0578174,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Shenoy Nagar HP 43, Pulla Avenue,Shenoy Nagar,Ch-30,HP.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">102</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC072</SimpleData>
+				<SimpleData name="OBJECTID">59</SimpleData>
+				<SimpleData name="S_NO">72</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">8</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2248058,13.0765627,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Chetpet UPHC, 1, Jagannathapuram 2nd St, Chetpet, Ch-31.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">107</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC077</SimpleData>
+				<SimpleData name="OBJECTID">60</SimpleData>
+				<SimpleData name="S_NO">77</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">8</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2429439,13.0731916,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Aminjikarai East Collectrate colony,6th cross street, Aminjikarai,Ch-29,HP</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">106</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC076</SimpleData>
+				<SimpleData name="OBJECTID">61</SimpleData>
+				<SimpleData name="S_NO">76</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">8</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2199318,13.0684099,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">MMDA, 21/63,D Block,Pandian St, MMDA Colony, Ch-106</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">105</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC075</SimpleData>
+				<SimpleData name="OBJECTID">62</SimpleData>
+				<SimpleData name="S_NO">75</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">8</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2136758,13.066556,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Kilpauk HP Temple st,New Avadi road,Kilpauk,Ch-10.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">103</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC073</SimpleData>
+				<SimpleData name="OBJECTID">63</SimpleData>
+				<SimpleData name="S_NO">73</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">8</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2345248,13.0805976,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Bharathi Puram, UPHC,4th st,Shenoy Nagar,   Ch-30, D</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">101</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC071</SimpleData>
+				<SimpleData name="OBJECTID">64</SimpleData>
+				<SimpleData name="S_NO">71</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">8</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2205546,13.0790817,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Aminjikarai West 1, Pillaiyar koil st, Naduvankarai, Ch-40</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">100</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC070</SimpleData>
+				<SimpleData name="OBJECTID">65</SimpleData>
+				<SimpleData name="S_NO">70</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">8</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.212152,13.0782373,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">P.S.Nagar,100, Aspirin garden,Ist Street, Kilpauk, Ch-10</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">98</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC69</SimpleData>
+				<SimpleData name="OBJECTID">66</SimpleData>
+				<SimpleData name="S_NO">69</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">8</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.23975799999999,13.0854127,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Agathiar nagar UPHC, No.1, 1st main road, agathiar Nagar , Villivakkam,                      Venugopal st,Ch-49.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">95</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC65</SimpleData>
+				<SimpleData name="OBJECTID">67</SimpleData>
+				<SimpleData name="S_NO">65</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">8</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2011961,13.0999668,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Villiwakkam UPHC, Mannady st, Villiwakkam, (Near.Bus Depo),east mada street,                   Ch-49.D</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">95</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC66</SimpleData>
+				<SimpleData name="OBJECTID">68</SimpleData>
+				<SimpleData name="S_NO">66</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">8</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2115135,13.1082623,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">N.A.(S) UPHC, 1,Officers colony (near post office) Ayanavaram,  Ch-23,HP.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">96</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC67</SimpleData>
+				<SimpleData name="OBJECTID">69</SimpleData>
+				<SimpleData name="S_NO">67</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">8</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2307182,13.1007275,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">C S Nagar UPHC, No.1, Satchithanadam St, Kosapet,  Ch – 12</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">76</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC52</SimpleData>
+				<SimpleData name="OBJECTID">70</SimpleData>
+				<SimpleData name="S_NO">52</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">6</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2572279,13.0943681,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Pulianthope UPHC,40,Thiruvengadasamy street, Pulianthope, Ch-012.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">73</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC49</SimpleData>
+				<SimpleData name="OBJECTID">71</SimpleData>
+				<SimpleData name="S_NO">49</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">6</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2606274,13.1008566,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Wadia Nagar UPHC, No.57, Cooks Road, Otteri, Ch- 12,HP</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">73</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC48</SimpleData>
+				<SimpleData name="OBJECTID">72</SimpleData>
+				<SimpleData name="S_NO">48</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">6</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2528798,13.1048036,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">N.N.Nagar UPHC, No.43, Vasantha Garden Main Road, Ayanavaram, Chennai - 23.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">69</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC47</SimpleData>
+				<SimpleData name="OBJECTID">73</SimpleData>
+				<SimpleData name="S_NO">47</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">6</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2383762,13.101001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Siruvallur UPHC, No.12, Kabilar St,Perambur, Ch-11,HP</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">69</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC46</SimpleData>
+				<SimpleData name="OBJECTID">74</SimpleData>
+				<SimpleData name="S_NO">46</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">6</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2435299,13.1205427,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Kolathur UPHC, Srivinasa Nagar 3rd Main Road, Kolathur, Ch- 99,HP</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">65</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC42</SimpleData>
+				<SimpleData name="OBJECTID">75</SimpleData>
+				<SimpleData name="S_NO">42</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">6</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.20537710000001,13.1201057,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">K.P.Park UPHC,Demellows road, Pulianthope, Ch-112.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">77</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC53</SimpleData>
+				<SimpleData name="OBJECTID">76</SimpleData>
+				<SimpleData name="S_NO">53</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">6</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2675588,13.0951548,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Chellappa Street  UPHC,  Otteri, Ch-12</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">75</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC51</SimpleData>
+				<SimpleData name="OBJECTID">77</SimpleData>
+				<SimpleData name="S_NO">51</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">6</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2533543,13.0927765,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">MMA Nagar UPHC, No.46, Subbuaraya 2nd St, Nammalvarpet, Ch - 12,HP</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">74</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC50</SimpleData>
+				<SimpleData name="OBJECTID">78</SimpleData>
+				<SimpleData name="S_NO">50</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">6</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2451315,13.0959648,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">TVK Nagar UPHC, Pallavan salai, Ch</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">66</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC43</SimpleData>
+				<SimpleData name="OBJECTID">79</SimpleData>
+				<SimpleData name="S_NO">43</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">6</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2337236,13.121095,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Sembuim UPHC, No.238,Papermills Road,Sembium,Ch- 11</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">68</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC45</SimpleData>
+				<SimpleData name="OBJECTID">80</SimpleData>
+				<SimpleData name="S_NO">45</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">6</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.23542209999999,13.1140066,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Vadapalani (W) UPHC,No. 1, Rajangam Mathyaveethi, Vadapalani, Ch-26</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">130</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC098</SimpleData>
+				<SimpleData name="OBJECTID">108</SimpleData>
+				<SimpleData name="S_NO">98</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">10</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.20925219999999,13.0537556,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Dasarathapuram UPHC, No. 10/11, Dhasaradha Puram 8th ST, Dasarathapuram Ch-93</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">129</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC097</SimpleData>
+				<SimpleData name="OBJECTID">109</SimpleData>
+				<SimpleData name="S_NO">97</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">10</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.20380179999999,13.0565868,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Koyambedu UPHC, No. 44, Natesa Nagar, 5th Main Road, Virugambakkam</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">127</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC095</SimpleData>
+				<SimpleData name="OBJECTID">110</SimpleData>
+				<SimpleData name="S_NO">95</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">10</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.192936,13.0590105,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Semmanchery PHC,1ST Main road,opp toTsunami nagar,  bus stop, Ch-119</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">200</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC140</SimpleData>
+				<SimpleData name="OBJECTID">111</SimpleData>
+				<SimpleData name="S_NO">140</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">15</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.21048829999999,12.8752287,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Kannagi nagar UPHC near Kannagi nagar Amma unavagam Kannakinagar, 2nd main road, okkiyam thoraipakkam, Ch-97</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">195</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC138</SimpleData>
+				<SimpleData name="OBJECTID">112</SimpleData>
+				<SimpleData name="S_NO">138</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">15</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.23863590000001,12.9309998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Neelangarai UPHC, 5, Kalaingar Karunanithi Main st, Kabaliswar Nagar, Neelangarai,  Ch-115.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">192</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC136</SimpleData>
+				<SimpleData name="OBJECTID">113</SimpleData>
+				<SimpleData name="S_NO">136</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">15</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2559055,12.9498626,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Palavakkam UPHC,East coast road, Palavakkam, Ch-41</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">185</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC132</SimpleData>
+				<SimpleData name="OBJECTID">114</SimpleData>
+				<SimpleData name="S_NO">132</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">14</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.253524,12.9645731,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Puzhuthivakkam UPHC,No.3.Raghavan street,Puzhuthivakkam, Ch-91</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">169</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC131</SimpleData>
+				<SimpleData name="OBJECTID">115</SimpleData>
+				<SimpleData name="S_NO">131</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">14</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2005982,12.9713337,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Adambakkam,1 UPHC,Mannadiamman koil street, Adambakkam,Ch-88</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">163</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC118</SimpleData>
+				<SimpleData name="OBJECTID">116</SimpleData>
+				<SimpleData name="S_NO">118</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">12</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.203596,12.9941574,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Alandur UPHC, No.12,Appavoo street, Alandur, Chennai-16</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">160</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC117</SimpleData>
+				<SimpleData name="OBJECTID">117</SimpleData>
+				<SimpleData name="S_NO">117</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">12</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2030566,13.001745,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Mugalivakkam UPHC PHC,opp to Panchayat office,Mugalivakkam, Ch-125.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">156</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC115</SimpleData>
+				<SimpleData name="OBJECTID">118</SimpleData>
+				<SimpleData name="S_NO">115</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">12</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.1669806,13.021229,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Nerkundram UPHC New colony Perumal koil street, Nerkundram, Ch-107</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">145</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC111</SimpleData>
+				<SimpleData name="OBJECTID">119</SimpleData>
+				<SimpleData name="S_NO">111</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">11</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.186415,13.0691929,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Maduravoyal UPHC(Unit office 32 Poonamalle high road),   Ch-95</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">144</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC110</SimpleData>
+				<SimpleData name="OBJECTID">120</SimpleData>
+				<SimpleData name="S_NO">110</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">11</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.1664767,13.0631111,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Mugappair (W) UPHC, Kalamegam Salai,Mugappair W,Ch- 37</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">93</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC62</SimpleData>
+				<SimpleData name="OBJECTID">121</SimpleData>
+				<SimpleData name="S_NO">62</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">7</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.1695182,13.0844001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Padi Round Building UPHC ,  TVS Avenue main Road,Near chennai public school, Chennai-101</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">89</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC61</SimpleData>
+				<SimpleData name="OBJECTID">122</SimpleData>
+				<SimpleData name="S_NO">61</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">7</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.18986820000001,13.0895622,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Korattur HP, No. 32, TNHB Street,32nd, Pakthavatchalam School Back Side, Korattur Ambattur, Chennai-50</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">83</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC58</SimpleData>
+				<SimpleData name="OBJECTID">123</SimpleData>
+				<SimpleData name="S_NO">58</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">7</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.18258230000001,13.1097226,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Venkatapuram HP, South park Street,Ch-53</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">81</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC57</SimpleData>
+				<SimpleData name="OBJECTID">124</SimpleData>
+				<SimpleData name="S_NO">57</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">7</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.1536298,13.1176699,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Meenabedu UPHC, No 1 KVK Samy street,Siddha oragadam, Ambattur   Ch-53</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">80</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC56</SimpleData>
+				<SimpleData name="OBJECTID">125</SimpleData>
+				<SimpleData name="S_NO">56</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">7</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.1601416,13.1233582,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Oragadam HP, No, 26, Gandhi High Road, Oragadam, Ambattur, Ch – 53</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">79</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC55</SimpleData>
+				<SimpleData name="OBJECTID">126</SimpleData>
+				<SimpleData name="S_NO">55</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">7</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.1536689,13.1297302,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Lakshmipuram UPHC Gangaiamman Koil st, Lakshmipuram, Ch-99</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">32</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC12</SimpleData>
+				<SimpleData name="OBJECTID">127</SimpleData>
+				<SimpleData name="S_NO">12</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">3</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2118459,13.1322539,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Madhavaram UPHC  Swamy Nagar, Madhavaram, Ch-60</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">26</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC10</SimpleData>
+				<SimpleData name="OBJECTID">128</SimpleData>
+				<SimpleData name="S_NO">10</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">3</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2301193,13.1480498,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Manali UPHC,No.1,Nedunchezhian salai, Manali, Ch-68.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">21</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC08</SimpleData>
+				<SimpleData name="OBJECTID">129</SimpleData>
+				<SimpleData name="S_NO">8</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">2</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2579003,13.1685842,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Thaangal UPHC No.3/2, Poongavanapuram main street, Kaladipet, Chennai - 19</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">14</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC06</SimpleData>
+				<SimpleData name="OBJECTID">130</SimpleData>
+				<SimpleData name="S_NO">6</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">1</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.302222,13.1516575,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Sathangadu UPHC No.9A, Balakrishna Naidu Colony, 2nd Street, Kaladipet, Thiruvottiyur, Ch- 19.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">12</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC05</SimpleData>
+				<SimpleData name="OBJECTID">131</SimpleData>
+				<SimpleData name="S_NO">5</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">1</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.29501550000001,13.1526388,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Thiruvottiyur UPHC , No.945, Thiruvottiyur High Road, Ch 19</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">11</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC04</SimpleData>
+				<SimpleData name="OBJECTID">132</SimpleData>
+				<SimpleData name="S_NO">4</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">1</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.3012841,13.1574973,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Perumalpet UPHC,No.30,Kariappan St,Ch-7</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">58</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC36</SimpleData>
+				<SimpleData name="OBJECTID">133</SimpleData>
+				<SimpleData name="S_NO">36</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">5</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2568023,13.0885878,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Agaram (S) UPHC, No.9, Somaiya St, Agaram, Ch-82,HP</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">67</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC44</SimpleData>
+				<SimpleData name="OBJECTID">81</SimpleData>
+				<SimpleData name="S_NO">44</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">6</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2313097,13.1091763,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Kondithope UPHC, No.60, Basin Bridge Road, Kondithope,Ch-21.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">53</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC31</SimpleData>
+				<SimpleData name="OBJECTID">82</SimpleData>
+				<SimpleData name="S_NO">31</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">5</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2744477,13.1042769,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Harbour UPHC, No.1, 4th Lane Beach Road,    Ch-1, </SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">60</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC38</SimpleData>
+				<SimpleData name="OBJECTID">83</SimpleData>
+				<SimpleData name="S_NO">38</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">5</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.29371810000001,13.101549,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS"> 21 KADAPPA RANGIYA STREET PERIYAMEDU CHENNAI-3</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">58</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC37</SimpleData>
+				<SimpleData name="OBJECTID">84</SimpleData>
+				<SimpleData name="S_NO">37</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">5</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2629859,13.0860323,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">BRN Garden UPHC, No.225, Broadway Road,Ch-1, </SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">56</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC34</SimpleData>
+				<SimpleData name="OBJECTID">85</SimpleData>
+				<SimpleData name="S_NO">34</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">5</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2865151,13.1020016,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Seven Wells UPHC, No.69, Amman Koil St, Ch- 1.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">55</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC33</SimpleData>
+				<SimpleData name="OBJECTID">86</SimpleData>
+				<SimpleData name="S_NO">33</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">5</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.28139,13.0985485,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Amman Koil South UPHC, No.8, Appu Maistry St, Ch- 1,</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">56</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC35</SimpleData>
+				<SimpleData name="OBJECTID">87</SimpleData>
+				<SimpleData name="S_NO">35</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">5</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2858957,13.0970009,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Grace Garden UPHC, No.152, S.N.Chetty St, Royapuram, Ch-13, (present working at no.1, Venkatesan street,Royapuram, ch-13.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">50</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC29</SimpleData>
+				<SimpleData name="OBJECTID">88</SimpleData>
+				<SimpleData name="S_NO">29</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">5</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2930049,13.1181342,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">ECR UPHC, No.32, East Cementry Road,  Ch- 21</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">52</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC30</SimpleData>
+				<SimpleData name="OBJECTID">89</SimpleData>
+				<SimpleData name="S_NO">30</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">5</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2830805,13.110283,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Thiruvanmiyur UPHC,No 2,8th st,Kamaraj nagar, Thiruvanmiyur,   Ch-41,D</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">182</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC130</SimpleData>
+				<SimpleData name="OBJECTID">90</SimpleData>
+				<SimpleData name="S_NO">130</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">13</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2571296,12.9848346,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">SRKV UPHC, N0.2,Thiruvalluvar salai, Tharamani,Ch-113.D</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">180</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC129</SimpleData>
+				<SimpleData name="OBJECTID">91</SimpleData>
+				<SimpleData name="S_NO">129</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">13</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2367491,12.9829641,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Velachery UPHC, No.2 Seva nagar, Gandhi road,Velachery,ch-42.HP</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">179</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC128</SimpleData>
+				<SimpleData name="OBJECTID">92</SimpleData>
+				<SimpleData name="S_NO">128</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">13</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.229941,12.9863037,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Adambakkam UPHC, 153, TNHB 3rd st, Adambakkam, Ch, D.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">177</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC127</SimpleData>
+				<SimpleData name="OBJECTID">93</SimpleData>
+				<SimpleData name="S_NO">127</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">13</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2120692,12.9915513,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Sastri nagar UPHC,4 Sasthiri nagar,4th st Adampakkam ch-88.D</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">177</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC126</SimpleData>
+				<SimpleData name="OBJECTID">94</SimpleData>
+				<SimpleData name="S_NO">126</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">13</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2052449,12.9890897,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Mandaveli UPHC,No.10, Velayutham Raja st (D), Mandaveli, Ch-28.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">173</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC123</SimpleData>
+				<SimpleData name="OBJECTID">95</SimpleData>
+				<SimpleData name="S_NO">123</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">13</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.264842,13.0239501,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Kotturpuram UPHC,12/23 Dhandayuthapani 2nd st Kotturpuram, Ch-85.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">172</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC122</SimpleData>
+				<SimpleData name="OBJECTID">96</SimpleData>
+				<SimpleData name="S_NO">122</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">13</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2402407,13.0229947,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Kanammapet UPHC,No.1,Hospital road,Kanammapet,ch17.HP</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">171</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC121</SimpleData>
+				<SimpleData name="OBJECTID">97</SimpleData>
+				<SimpleData name="S_NO">121</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">13</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2261539,13.0299502,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Saligramam UPHC, 5th street, Vijayaraghavapuram, Chennai-93.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">131</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC099</SimpleData>
+				<SimpleData name="OBJECTID">98</SimpleData>
+				<SimpleData name="S_NO">99</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">10</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.20230239999999,13.0440447,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Virugambakkam UPHC, No.77,Kamarajar street,Division Office, Virugambakkam</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">128</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC096</SimpleData>
+				<SimpleData name="OBJECTID">99</SimpleData>
+				<SimpleData name="S_NO">96</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">10</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.19690009999999,13.0528551,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Nesapakkam  UPHC, No. 1 Erikarai Street, Nesapakkam, Ch-78</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">137</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC104</SimpleData>
+				<SimpleData name="OBJECTID">100</SimpleData>
+				<SimpleData name="S_NO">104</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">10</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.1912859,13.0316584,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Ashok Nagar UPHC, 34, 35th street, Ashok Nagar, Ch-83</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">132</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC100</SimpleData>
+				<SimpleData name="OBJECTID">101</SimpleData>
+				<SimpleData name="S_NO">100</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">10</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.21456329999999,13.0411162,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Nallan Kuppam  UPHC, 62nd street, Ashoknagar, Ch-83</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">133</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC102</SimpleData>
+				<SimpleData name="OBJECTID">102</SimpleData>
+				<SimpleData name="S_NO">102</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">10</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2172168,13.032255,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Kodambakkam UPHC,Corporation Colony, Kodambakkam, Ch-24</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">134</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC101</SimpleData>
+				<SimpleData name="OBJECTID">103</SimpleData>
+				<SimpleData name="S_NO">101</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">10</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.219004,13.051185,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Jafferkhanpet  UPHC,no.1, Ayyavu 4th street, Jafferkhanpet,Ch-83.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">138</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC105</SimpleData>
+				<SimpleData name="OBJECTID">104</SimpleData>
+				<SimpleData name="S_NO">105</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">10</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.20226510000001,13.0318886,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Kumaran Nagar UPHC,No. 1 Govindan Road, West Mambalam, Ch-33</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">140</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC107</SimpleData>
+				<SimpleData name="OBJECTID">105</SimpleData>
+				<SimpleData name="S_NO">107</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">10</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2241681,13.0310426,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">C.I.T  Nagar UPHC, No. 54, 4th Main Road, C.I.T. Nagar, Ch-35</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">141</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC108</SimpleData>
+				<SimpleData name="OBJECTID">106</SimpleData>
+				<SimpleData name="S_NO">108</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">10</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2339271,13.0293924,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Saidapet UPHC,51,Jones  Road, Saidapet, Ch-15</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">142</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC109</SimpleData>
+				<SimpleData name="OBJECTID">107</SimpleData>
+				<SimpleData name="S_NO">109</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">10</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2195017,13.025052,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Kathivakkam UPHC  No.3/392, Kathivakkam High Road, Ennore, Ch – 57</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">2</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC01</SimpleData>
+				<SimpleData name="OBJECTID">1</SimpleData>
+				<SimpleData name="S_NO">1</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">1</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.319929,13.218101,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Ernavoor UPHC BNo.63, All Indio Radio nagar, Tsunami quarters, Ernavoor, Chennai - 57</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">4</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC02</SimpleData>
+				<SimpleData name="OBJECTID">2</SimpleData>
+				<SimpleData name="S_NO">2</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">1</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.30580999999999,13.185883,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Kuppam UPHC No.1,School Street, Jothi Nagar, Ch 19,</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">6</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC03</SimpleData>
+				<SimpleData name="OBJECTID">3</SimpleData>
+				<SimpleData name="S_NO">3</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">1</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.30234799999999,13.180226,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Kodungaiyur I, No.15, Anna Salai, kodungaiyur,   Ch - 118,</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">34</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC13</SimpleData>
+				<SimpleData name="OBJECTID">4</SimpleData>
+				<SimpleData name="S_NO">13</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">4</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.243622,13.134929,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Vivekanandha UPHC (Kodungaiyur II), No.39, Appar st, Vivekananda Nagar, kodungaiyur, Chennai – 118</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">35</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC14</SimpleData>
+				<SimpleData name="OBJECTID">5</SimpleData>
+				<SimpleData name="S_NO">14</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">4</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.258365,13.130689,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Elango Nagar UPHC, No.18, DR. Ambedkar College Road, Vyasarpadi, Ch-39</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">45</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC24</SimpleData>
+				<SimpleData name="OBJECTID">6</SimpleData>
+				<SimpleData name="S_NO">24</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">4</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.25959,13.110744,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Sanjeevarayanpet UPHC, No.194, Solaiappar st, Ch- 21</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">49</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC28</SimpleData>
+				<SimpleData name="OBJECTID">7</SimpleData>
+				<SimpleData name="S_NO">28</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">5</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.287048,13.119515,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">P.K. Garden UPHC, No.44, Walltax Road, Ch-79.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">54</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC32</SimpleData>
+				<SimpleData name="OBJECTID">8</SimpleData>
+				<SimpleData name="S_NO">32</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">5</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.275076,13.096197,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Pudupet UPHC, No.22, Langs Garden St, Pudupet,Ch - 2,HP</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">63</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC40</SimpleData>
+				<SimpleData name="OBJECTID">9</SimpleData>
+				<SimpleData name="S_NO">40</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">5</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.26792399999999,13.07125,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Anjugam nagar 3rd street kolathur, Ch-99</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">64</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC41</SimpleData>
+				<SimpleData name="OBJECTID">10</SimpleData>
+				<SimpleData name="S_NO">41</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">6</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.20647099999999,13.11908,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Choolai UPHC, No.23, V.V. Koil St, Choolai, Ch – 112,HP</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">78</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC54</SimpleData>
+				<SimpleData name="OBJECTID">11</SimpleData>
+				<SimpleData name="S_NO">54</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">6</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.26576300000001,13.091055,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Varadharajapuram  UPHC I, No.3, Station Road, Varadharajapuram, Ambattur,Ch-53.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">85</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC59</SimpleData>
+				<SimpleData name="OBJECTID">12</SimpleData>
+				<SimpleData name="S_NO">59</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">7</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.15349999999999,13.112624,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Athipet UPHC , Chinna Colony, Athipet,Ambattur, Ch- 53.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">86</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC60</SimpleData>
+				<SimpleData name="OBJECTID">13</SimpleData>
+				<SimpleData name="S_NO">60</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">7</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.159243,13.091369,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Mugappair (E) UPHC, Veeramamunivar Street, Mugappair (E), Ch -37</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">93</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC63</SimpleData>
+				<SimpleData name="OBJECTID">14</SimpleData>
+				<SimpleData name="S_NO">63</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">7</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.186072,13.082449,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Raja mangalam UPHC, No:36, Raja Mangalam, Ch-49,RD</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">94</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC64</SimpleData>
+				<SimpleData name="OBJECTID">15</SimpleData>
+				<SimpleData name="S_NO">64</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">8</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.205321,13.113404,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Ayanavaram UPHC, Chennai Primary School,Solai Street,Ayanavaram, Ch.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">97</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC68</SimpleData>
+				<SimpleData name="OBJECTID">16</SimpleData>
+				<SimpleData name="S_NO">68</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">8</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.230491,13.098274,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Purusaiwakkam, near sundaram pillai school</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">104</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC074</SimpleData>
+				<SimpleData name="OBJECTID">17</SimpleData>
+				<SimpleData name="S_NO">74</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">8</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.25240599999999,13.087774,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Periyar nagar UPHC, 47/17,Sherfudeen st, Choolaimedu, Ch-94.HP (NCD)</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">109</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC079</SimpleData>
+				<SimpleData name="OBJECTID">18</SimpleData>
+				<SimpleData name="S_NO">79</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">9</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.229,13.063667,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Community Nursing college,34,Arunachalam st,Chepak, Ch.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">114</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC083</SimpleData>
+				<SimpleData name="OBJECTID">19</SimpleData>
+				<SimpleData name="S_NO">83</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">9</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2762,13.063605,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Zam bazar UPHC,Corporation middle school  32,Thangavelu vaithair st, Subramania garden, Devarajamudali st, Triplicane, Ch5.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">115</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC084</SimpleData>
+				<SimpleData name="OBJECTID">20</SimpleData>
+				<SimpleData name="S_NO">84</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">9</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.260261,13.05507,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Royapettah UPHC,35 Ammaiappan lane,Royapettah, Ch-14. D</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">118</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC087</SimpleData>
+				<SimpleData name="OBJECTID">21</SimpleData>
+				<SimpleData name="S_NO">87</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">9</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.262252,13.051291,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Santhome UPHC, 14,A,Appu II Lane, Mylapore, Chennai-4.HP</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">125</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC093</SimpleData>
+				<SimpleData name="OBJECTID">22</SimpleData>
+				<SimpleData name="S_NO">93</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">9</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.276183,13.029423,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">T.Nagar  UPHC,Corporation Hospital, 5, Siva Gnanam Street, T.Nagar,  Ch-17</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">136</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC103</SimpleData>
+				<SimpleData name="OBJECTID">23</SimpleData>
+				<SimpleData name="S_NO">103</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">10</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.235775,13.039316,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Saidapet West UPHC, No. 2nd Link Street, R.R. Colony Jafferkanpet, Ch-83</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">139</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC106</SimpleData>
+				<SimpleData name="OBJECTID">24</SimpleData>
+				<SimpleData name="S_NO">106</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">10</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.21589400000001,13.027736,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Kamarajar Salai,Nerkundaram,Ch</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">148</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC112</SimpleData>
+				<SimpleData name="OBJECTID">25</SimpleData>
+				<SimpleData name="S_NO">112</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">11</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.184072,13.055512,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Unit Office,Sakthi Nagar,Porur</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">153</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC113</SimpleData>
+				<SimpleData name="OBJECTID">26</SimpleData>
+				<SimpleData name="S_NO">113</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">11</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.164171,13.030794,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Ramapuram, Unit Office 154, Kambar Salai, Ramapuram</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">154</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC114</SimpleData>
+				<SimpleData name="OBJECTID">27</SimpleData>
+				<SimpleData name="S_NO">114</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">11</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.173908,13.035022,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Pazhavanthangal UPHC,2,new colony,II cross st,Pazhavanthangal,Ch-114.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">159</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC116</SimpleData>
+				<SimpleData name="OBJECTID">28</SimpleData>
+				<SimpleData name="S_NO">116</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">12</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.18953,12.987892,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Nanganallur UPHC,K.K.Nagar main road,Ch-114</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">166</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC119</SimpleData>
+				<SimpleData name="OBJECTID">29</SimpleData>
+				<SimpleData name="S_NO">119</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">12</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.18160399999999,12.974467,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Ekatuthangal UPHC, AG&apos;s Church next New Building Ekkattuthangal (D), Anna salai Saidapet, Ch-75.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">170</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC120</SimpleData>
+				<SimpleData name="OBJECTID">30</SimpleData>
+				<SimpleData name="S_NO">120</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">13</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.20578,13.017859,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Adyar UPHC, Vannandurai road,Besent Nagar near Besant nagar bus stand,Ch-90.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">176</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC125</SimpleData>
+				<SimpleData name="OBJECTID">31</SimpleData>
+				<SimpleData name="S_NO">125</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">13</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.26358999999999,13.001099,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Madipakkam UPHC , Division Office Madipakkam Bus stand,Ch-91</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">187</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC133</SimpleData>
+				<SimpleData name="OBJECTID">32</SimpleData>
+				<SimpleData name="S_NO">133</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">14</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.19842300000001,12.963201,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Pallikaranai UPHC, Ch-100.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">189</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC134</SimpleData>
+				<SimpleData name="OBJECTID">33</SimpleData>
+				<SimpleData name="S_NO">134</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">14</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.204132,12.933155,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Jalladayanpet UPHC, No.6, Thiruvalluvar street, Jalladayanpet, Ch-101</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">191</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC135</SimpleData>
+				<SimpleData name="OBJECTID">34</SimpleData>
+				<SimpleData name="S_NO">135</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">14</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.196558,12.912397,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Thoraipakkam UPHC, Govt PHC, Rajiv gandhi salai,panchayat office campus, Okkiyam Thoraipakkam, Ch-97.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">193</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC137</SimpleData>
+				<SimpleData name="OBJECTID">35</SimpleData>
+				<SimpleData name="S_NO">137</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">15</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.24092899999999,12.948711,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Jeeva Nagar UPHC No.602, T.H.Road, Tondaiyarpet, Ch- 81,</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">42</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC21</SimpleData>
+				<SimpleData name="OBJECTID">36</SimpleData>
+				<SimpleData name="S_NO">21</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">4</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2871664,13.1227846,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">V.R. Nagar HP,No.471,T.H. Road,Old Washermenpet, Ch 81</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">48</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC27</SimpleData>
+				<SimpleData name="OBJECTID">37</SimpleData>
+				<SimpleData name="S_NO">27</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">4</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2818596,13.112995,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Perambur UPHC, No.100, Kamaraj Nagar 2nd St, Vyasarapadi, Ch- 39,</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">44</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC23</SimpleData>
+				<SimpleData name="OBJECTID">38</SimpleData>
+				<SimpleData name="S_NO">23</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">4</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2507737,13.1163161,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Sathyamoorthy UPHC, No.17,Sathyamoorthy nagar main road,Vyasarpadi, Ch-39</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">45</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC25</SimpleData>
+				<SimpleData name="OBJECTID">39</SimpleData>
+				<SimpleData name="S_NO">25</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">4</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2660772,13.1189283,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS"> Hari Narayanapuram UPHC,No.1,Old glass factory road, Korukkupet,Ch-21.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">47</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC26</SimpleData>
+				<SimpleData name="OBJECTID">40</SimpleData>
+				<SimpleData name="S_NO">26</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">4</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.27284880000001,13.1111699,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Tondaiyarpet UPHC, 52,Kasima Nagar 3rd Street,Chennai-13</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">43</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC22</SimpleData>
+				<SimpleData name="OBJECTID">41</SimpleData>
+				<SimpleData name="S_NO">22</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">4</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2931207,13.1289166,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Korukkupet UPHC, No.15, Amman Koil St, Sivaji Nagar, Korukkupet,Ch - 21.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">41</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC20</SimpleData>
+				<SimpleData name="OBJECTID">42</SimpleData>
+				<SimpleData name="S_NO">20</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">4</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.27995079999999,13.1277307,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">V.O.C Nagar (Jeeva Nagar) UPHC, No.1, Chelliamman Koil St, Tondaiyarpet, Ch-81.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">40</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC19</SimpleData>
+				<SimpleData name="OBJECTID">43</SimpleData>
+				<SimpleData name="S_NO">19</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">4</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.28627280000001,13.1326238,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">New washermenpet UPHC, No.4, Cheriyan Nagar 4th st, New Washermenpet, Ch- 81</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">39</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC18</SimpleData>
+				<SimpleData name="OBJECTID">44</SimpleData>
+				<SimpleData name="S_NO">18</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">4</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2970873,13.138354,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Vyasarpadi UPHC No. 155A, 14th Cross st, MKB Nagar, Vyasarpadi, ch - 39,</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">37</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC16</SimpleData>
+				<SimpleData name="OBJECTID">45</SimpleData>
+				<SimpleData name="S_NO">16</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">4</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2622168,13.1247298,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Sharma Nagar UPHC, No.66,S.A.Colony,8th street,Vyasarpadi, Ch-39, D.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">36</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC15</SimpleData>
+				<SimpleData name="OBJECTID">46</SimpleData>
+				<SimpleData name="S_NO">15</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">4</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2516612,13.1229447,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">R.K.Nagar UPHC No.140, Annai Sandhya Nagar, 1st street, Tondaiyarpet, Ch-81.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">38</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC17</SimpleData>
+				<SimpleData name="OBJECTID">47</SimpleData>
+				<SimpleData name="S_NO">17</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">4</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2781303,13.137974,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Mylapore UPHC,22,Mundakanniaman Koil st Mylapore,  Ch-4.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">124</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC092</SimpleData>
+				<SimpleData name="OBJECTID">48</SimpleData>
+				<SimpleData name="S_NO">92</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">9</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2710003,13.0364315,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Vadapalani East UPHC, 1/3, Trustpuram xth street kodampakkam Ch-2</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">112</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC082</SimpleData>
+				<SimpleData name="OBJECTID">49</SimpleData>
+				<SimpleData name="S_NO">82</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">9</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.22351980000001,13.0580068,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Thousand light UPHC, 82, Azizmulk 2 street, Thousand light,Ch-06.HP</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">111</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC081</SimpleData>
+				<SimpleData name="OBJECTID">50</SimpleData>
+				<SimpleData name="S_NO">81</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">9</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2524189,13.0554818,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">R A Puram UPHC, 17,R.K.Nagar II Main road road, R.A.Puram, Ch-28.HP</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">126</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC094</SimpleData>
+				<SimpleData name="OBJECTID">51</SimpleData>
+				<SimpleData name="S_NO">94</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">9</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2611888,13.0257856,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Beemanampet UPHC, Multy speciality,29 ,C P Ramasamy road Alwar pet,Ch-1</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">123</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC091</SimpleData>
+				<SimpleData name="OBJECTID">52</SimpleData>
+				<SimpleData name="S_NO">91</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">9</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.25707420000001,13.0345762,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Teynampet UPHC, 40,K.B.Dasan raod, Teynampet, Ch-18, HP</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">122</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC090</SimpleData>
+				<SimpleData name="OBJECTID">53</SimpleData>
+				<SimpleData name="S_NO">90</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">9</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2503392,13.0355026,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Chinthathirpet UPHC, No.10,Nainiappan St, Chinthathirpet, Ch - 2</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">62</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC39</SimpleData>
+				<SimpleData name="OBJECTID">134</SimpleData>
+				<SimpleData name="S_NO">39</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">5</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2679696,13.0749732,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Mangalapuram UPHC, 8, 8th st, Mangalapuram, Chetpet,Ch-31.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">107</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC78</SimpleData>
+				<SimpleData name="OBJECTID">135</SimpleData>
+				<SimpleData name="S_NO">78</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">8</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2452672,13.0730864,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Old Siddha Clinic next to maduvankarai school 5 furlong road, Maduvankarai,Ch-32.  </SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">174</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC124</SimpleData>
+				<SimpleData name="OBJECTID">136</SimpleData>
+				<SimpleData name="S_NO">124</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">13</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2143719,12.9994108,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Puzhal UPHC Gandhi Main Road,Puzhal,Ch-66.</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">22</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC09</SimpleData>
+				<SimpleData name="OBJECTID">137</SimpleData>
+				<SimpleData name="S_NO">9</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">3</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.20385400000001,13.1651165,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Manali New Town UPHC,Govt PHC,Manali new town.Ch-103</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">15</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC07</SimpleData>
+				<SimpleData name="OBJECTID">138</SimpleData>
+				<SimpleData name="S_NO">7</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">2</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.27602709999999,13.2062051,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Nedunchezian Salai,OMR</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">197</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC139</SimpleData>
+				<SimpleData name="OBJECTID">139</SimpleData>
+				<SimpleData name="S_NO">139</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">15</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2284391,12.8921433,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_uphcs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_uphcs_SSISIISI">
+				<SimpleData name="ADDRESS">Kannabiran UPHC, Kannabiran Koil st, Madhavaram, Ch-60</SimpleData>
+				<SimpleData name="DEPARTMENT">HEALTH-MSD</SimpleData>
+				<SimpleData name="DIVISION">31</SimpleData>
+				<SimpleData name="FINAL_CODE">UPHC11  UPHC11  </SimpleData>
+				<SimpleData name="OBJECTID">140</SimpleData>
+				<SimpleData name="S_NO">11</SimpleData>
+				<SimpleData name="TYPE">UPHC</SimpleData>
+				<SimpleData name="ZONE">3</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2323171,13.1424764,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,202 @@
+ward,label,zone,zoneName,areaKm2,population,density,lat,lon,gcc,govh,hospital,clinic,vet,abc,govtTotal,govtPer100k,nearestGovtKm,nearestGovtName,nearestArvKm,nearestArvName
+119,Ward 119,IX,Teynampet,1.39,23089,16608,13.04645,80.26547,1,0,5,2,0,0,1,4.33,0.64,Royapettah UPHC,2.72,Tamil Nadu Government Multi Super Speciality Hospital
+7,Ward 7,I,Thiruvottiyur,7.79,61869,7944,13.15757,80.2818,0,0,0,0,0,0,0,0.0,1.53,Sathangadu UPHC No.9A,5.74,Govt. Stanley Hospital
+26,Ward 26,III,Madhavaram,4.84,34926,7214,13.1453,80.21799,0,0,3,1,0,0,0,0.0,1.35,Madhavaram UPHC Swamy Nagar,7.95,Govt Kilpauk Medical College Hospital
+174,Ward 174,XIII,Adyar,8.4,42566,5069,12.99722,80.22516,1,1,1,2,0,0,2,4.7,1.19,Old Siddha Clinic next to maduvankarai school 5 furlong road,9.24,Govt Kilpauk Medical College Hospital
+132,Ward 132,X,Kodambakkam,1.41,22693,16061,13.03846,80.21263,1,2,10,2,0,0,3,13.22,0.36,Ashok Nagar UPHC,5.57,Govt Kilpauk Medical College Hospital
+37,Ward 37,IV,Tondiarpet,4.36,26213,6018,13.13323,80.26716,1,0,2,0,0,0,1,3.81,0.99,Vivekanandha UPHC (Kodungaiyur II),3.68,Govt. Stanley Hospital
+70,Ward 70,VI,Thiru Vi Ka Nagar,1.5,20860,13950,13.10895,80.2472,1,0,1,3,0,0,1,4.79,0.32,TVK Nagar UPHC,3.43,Govt Kilpauk Medical College Hospital
+101,Ward 101,VIII,Annanagar,1.75,26210,14949,13.08544,80.21975,1,1,12,1,0,0,2,7.63,0.71,Bharathi Puram UPHC,2.72,Govt Kilpauk Medical College Hospital
+60,Ward 60,V,Royapuram,5.79,48325,8339,13.08388,80.29,1,0,2,3,0,0,1,2.07,0.8,"Tamil Nadu Government Dental College & Hospital, Chennai",1.41,Rajiv Gandhi Government General Hospital
+16,Ward 16,II,Manali,10.05,34561,3438,13.19377,80.27854,0,0,1,0,0,0,0,0.0,1.41,Manali New Town UPHC,9.78,Govt. Stanley Hospital
+200,Ward 200,XV,Sozhinganallur,7.47,29684,3976,12.86567,80.22335,1,0,1,0,0,0,1,3.37,1.75,Semmanchery PHC,23.31,Tamil Nadu Government Multi Super Speciality Hospital
+86,Ward 86,VII,Ambattur,5.99,63800,10647,13.09187,80.16107,1,0,1,0,0,0,1,1.57,0.21,Athipet UPHC,9.08,Govt Kilpauk Medical College Hospital
+147,Ward 147,XI,Valasaravakkam,2.42,34517,14250,13.05218,80.17072,0,0,0,0,0,0,0,0.0,1.3,Maduravoyal UPHC(Unit office 32 Poonamalle high road),8.43,Govt Kilpauk Medical College Hospital
+157,Ward 157,XII,Alandur,4.18,26103,6239,13.01291,80.17203,0,0,3,1,0,0,0,0.0,1.07,Mugalivakkam UPHC PHC,10.64,Govt Kilpauk Medical College Hospital
+STM,St. Thomas Mount (Cantonment),,St. Thomas Mount,5.76,39053,6782,13.00825,80.1953,0,0,6,0,0,0,0,0.0,0.83,Nandambakkam Dispensary,9.39,Govt Kilpauk Medical College Hospital
+189,Ward 189,XIV,Perungudi,10.99,39366,3583,12.94718,80.22145,1,0,1,3,0,0,1,2.54,2.12,Thoraipakkam UPHC,14.74,Tamil Nadu Government Multi Super Speciality Hospital
+17,Ward 17,II,Manali,6.69,19354,2893,13.18396,80.2353,0,0,0,0,0,0,0,0.0,2.45,MMC Government Hospital,10.29,Govt. Stanley Hospital
+19,Ward 19,II,Manali,4.14,26815,6470,13.17287,80.24067,0,0,0,2,0,0,0,0.0,1.09,MMC Government Hospital,8.94,Govt. Stanley Hospital
+20,Ward 20,II,Manali,0.55,7874,14446,13.16908,80.2543,3,0,0,0,0,0,3,38.1,0.39,Manali UPHC,7.83,Govt. Stanley Hospital
+21,Ward 21,II,Manali,1.97,22401,11386,13.16725,80.27712,0,0,2,0,0,0,0,0.0,2.09,Manali UPHC,6.87,Govt. Stanley Hospital
+18,Ward 18,II,Manali,8.1,49252,6079,13.17921,80.26973,0,0,0,0,0,0,0,0.0,1.74,Manali UPHC,8.33,Govt. Stanley Hospital
+15,Ward 15,II,Manali,8.75,15898,1817,13.21269,80.28589,1,1,0,0,0,0,2,12.58,1.29,Manali New Town UPHC,11.84,Govt. Stanley Hospital
+1,Ward 1,I,Thiruvottiyur,1.84,7859,4266,13.22607,80.32279,0,0,0,0,0,0,0,0.0,0.94,Kathivakkam UPHC No.3/392,13.89,Govt. Stanley Hospital
+2,Ward 2,I,Thiruvottiyur,2.85,12430,4363,13.2154,80.31831,1,1,0,0,0,0,2,16.09,0.23,"PHC, Kathivakkam",12.62,Govt. Stanley Hospital
+3,Ward 3,I,Thiruvottiyur,2.98,17195,5779,13.1963,80.31217,0,0,0,0,0,0,0,0.0,0.63,Thiruvottiyur UCHC,10.39,Govt. Stanley Hospital
+4,Ward 4,I,Thiruvottiyur,1.66,15940,9589,13.18479,80.3042,3,0,0,1,0,0,3,18.82,0.21,Ernavoor UPHC BNo.63,8.94,Govt. Stanley Hospital
+6,Ward 6,I,Thiruvottiyur,1.85,16643,8987,13.17791,80.29334,0,0,1,0,0,0,0,0.0,1.01,Kuppam UPHC No.1,8.01,Govt. Stanley Hospital
+5,Ward 5,I,Thiruvottiyur,2.64,24189,9179,13.18086,80.31135,0,0,2,3,0,0,0,0.0,0.82,Ernavoor UPHC BNo.63,8.72,Govt. Stanley Hospital
+8,Ward 8,I,Thiruvottiyur,0.47,5942,12758,13.16664,80.30667,0,0,2,0,0,0,0,0.0,1.17,Thiruvottiyur UPHC,7.06,Govt. Stanley Hospital
+9,Ward 9,I,Thiruvottiyur,0.52,6313,12151,13.16267,80.30638,0,0,0,0,0,0,0,0.0,0.8,Thiruvottiyur UPHC,6.63,Govt. Stanley Hospital
+10,Ward 10,I,Thiruvottiyur,0.47,8083,17186,13.16283,80.2996,0,0,0,1,0,0,0,0.0,0.62,Thiruvottiyur UPHC,6.45,Govt. Stanley Hospital
+11,Ward 11,I,Thiruvottiyur,1.21,11558,9577,13.15448,80.30387,2,0,3,4,0,0,2,17.3,0.36,Thaangal UPHC No.3/2,5.68,Govt. Stanley Hospital
+12,Ward 12,I,Thiruvottiyur,0.38,6203,16532,13.15123,80.29686,1,0,5,0,0,0,1,16.12,0.25,Sathangadu UPHC No.9A,5.13,Govt. Stanley Hospital
+13,Ward 13,I,Thiruvottiyur,0.44,6247,14152,13.14781,80.29349,0,0,1,0,0,0,0,0.0,0.56,Sathangadu UPHC No.9A,4.69,Govt. Stanley Hospital
+14,Ward 14,I,Thiruvottiyur,0.8,6737,8407,13.14749,80.30231,1,0,0,2,0,0,1,14.84,0.46,Thaangal UPHC No.3/2,4.89,Govt. Stanley Hospital
+22,Ward 22,III,Madhavaram,4.02,27065,6733,13.16943,80.20444,1,0,1,4,0,0,1,3.69,0.48,Puzhal UPHC Gandhi Main Road,10.99,Govt Kilpauk Medical College Hospital
+23,Ward 23,III,Madhavaram,2.93,22812,7775,13.15901,80.20197,0,0,1,2,0,0,0,0.0,0.71,Puzhal UPHC Gandhi Main Road,10.05,Govt Kilpauk Medical College Hospital
+32,Ward 32,III,Madhavaram,0.79,11320,14361,13.1326,80.2067,1,0,2,2,0,0,1,8.83,0.56,Lakshmipuram UPHC Gangaiamman Koil st,7.25,Govt Kilpauk Medical College Hospital
+24,Ward 24,III,Madhavaram,4.74,38110,8037,13.14157,80.18696,0,0,0,0,0,0,0,0.0,2.89,Lakshmipuram UPHC Gangaiamman Koil st,9.34,Govt Kilpauk Medical College Hospital
+25,Ward 25,III,Madhavaram,2.56,20281,7936,13.1502,80.20835,0,0,0,0,0,0,0,0.0,1.73,Puzhal UPHC Gandhi Main Road,8.86,Govt Kilpauk Medical College Hospital
+29,Ward 29,III,Madhavaram,2.17,13437,6189,13.15473,80.26238,0,0,0,2,0,0,0,0.0,1.61,Manali UPHC,6.01,Govt. Stanley Hospital
+28,Ward 28,III,Madhavaram,3.2,21292,6646,13.15637,80.24992,0,0,0,1,0,0,0,0.0,1.04,MMC Government Hospital,6.86,Govt. Stanley Hospital
+27,Ward 27,III,Madhavaram,3.22,28605,8887,13.15701,80.23393,0,1,0,0,0,0,1,3.5,1.08,Madhavaram UPHC Swamy Nagar,8.05,Govt. Stanley Hospital
+30,Ward 30,III,Madhavaram,0.89,11839,13306,13.14691,80.23477,2,0,0,0,0,0,2,16.89,0.52,Madhavaram UPHC Swamy Nagar,7.23,Govt. Stanley Hospital
+33,Ward 33,III,Madhavaram,2.6,31161,11979,13.13145,80.22951,0,0,0,0,0,0,0,0.0,1.24,TVK Nagar UPHC,6.11,Govt Kilpauk Medical College Hospital
+31,Ward 31,III,Madhavaram,1.6,21529,13416,13.13903,80.23378,1,0,1,0,0,0,1,4.64,0.41,Kannabiran UPHC,6.81,Govt. Stanley Hospital
+34,Ward 34,IV,Tondiarpet,2.39,29137,12208,13.13972,80.24922,0,0,2,0,0,0,0,0.0,0.81,Kodungaiyur I UPHC,5.52,Govt. Stanley Hospital
+35,Ward 35,IV,Tondiarpet,1.76,24977,14173,13.13033,80.24634,1,0,4,1,0,0,1,4.0,0.59,Kodungaiyur I UPHC,5.14,Govt. Stanley Hospital
+44,Ward 44,IV,Tondiarpet,0.66,9579,14418,13.11805,80.2487,1,0,3,0,0,0,1,10.44,0.3,Perambur UPHC,4.33,Govt. Stanley Hospital
+45,Ward 45,IV,Tondiarpet,1.12,16384,14601,13.11349,80.2582,1,0,0,0,0,0,1,6.1,0.34,Elango Nagar UPHC,3.2,Govt. Stanley Hospital
+36,Ward 36,IV,Tondiarpet,1.53,22356,14642,13.12388,80.25381,2,1,1,1,0,0,3,13.42,0.12,Urban Primary Health Center,4.08,Govt. Stanley Hospital
+46,Ward 46,IV,Tondiarpet,1.02,12046,11829,13.11254,80.26724,1,0,0,0,0,0,1,8.3,0.63,Hari Narayanapuram UPHC,2.23,Govt. Stanley Hospital
+47,Ward 47,IV,Tondiarpet,0.75,8928,11842,13.11624,80.27541,1,0,0,0,0,0,1,11.2,0.63,Hari Narayanapuram UPHC,1.66,Govt. Stanley Hospital
+48,Ward 48,IV,Tondiarpet,0.48,7649,15949,13.11578,80.28277,1,1,1,0,0,0,2,26.15,0.25,Chennai Corporation Hospital,1.15,Govt. Stanley Hospital
+42,Ward 42,IV,Tondiarpet,0.58,9587,16487,13.12269,80.28473,0,1,2,1,0,0,1,10.43,0.26,Jeeva Nagar UPHC No.602,1.85,Govt. Stanley Hospital
+43,Ward 43,IV,Tondiarpet,0.95,12004,12592,13.12637,80.29354,1,1,5,0,0,0,2,16.66,0.26,ESI,2.36,Govt. Stanley Hospital
+39,Ward 39,IV,Tondiarpet,1.04,11878,11449,13.13819,80.29576,1,0,1,0,0,0,1,8.42,0.14,New washermenpet UPHC,3.69,Govt. Stanley Hospital
+40,Ward 40,IV,Tondiarpet,0.85,12783,15082,13.13354,80.2892,1,0,1,0,0,0,1,7.82,0.33,V.O.C Nagar (Jeeva Nagar) UPHC,3.05,Govt. Stanley Hospital
+41,Ward 41,IV,Tondiarpet,0.83,11419,13772,13.12488,80.2752,1,0,0,0,0,0,1,8.76,0.6,Korukkupet UPHC,2.43,Govt. Stanley Hospital
+38,Ward 38,IV,Tondiarpet,2.5,24900,9963,13.13378,80.2808,1,0,0,0,0,0,1,4.02,0.55,R.K.Nagar UPHC No.140,3.14,Govt. Stanley Hospital
+64,Ward 64,VI,Thiru Vi Ka Nagar,2.42,31818,13164,13.12384,80.21569,0,0,10,15,0,0,0,0.0,1.02,Lakshmipuram UPHC Gangaiamman Koil st,5.9,Govt Kilpauk Medical College Hospital
+65,Ward 65,VI,Thiru Vi Ka Nagar,1.86,28580,15325,13.12014,80.20542,2,0,0,0,0,0,2,7.0,0.01,Kolathur UPHC,6.23,Govt Kilpauk Medical College Hospital
+67,Ward 67,VI,Thiru Vi Ka Nagar,0.99,15240,15363,13.11197,80.23454,1,0,1,0,0,0,1,6.56,0.25,Sembuim UPHC,3.87,Govt Kilpauk Medical College Hospital
+68,Ward 68,VI,Thiru Vi Ka Nagar,0.9,14058,15707,13.11932,80.23582,2,0,1,0,1,0,2,14.23,0.3,TVK Nagar UPHC,4.64,Govt Kilpauk Medical College Hospital
+66,Ward 66,VI,Thiru Vi Ka Nagar,1.67,23034,13815,13.11836,80.22793,0,1,6,15,0,0,1,4.34,0.6,Govt Peripheral Hospital Periyar Nagar,4.77,Govt Kilpauk Medical College Hospital
+77,Ward 77,VI,Thiru Vi Ka Nagar,0.67,11308,16799,13.09534,80.26828,1,0,1,0,0,0,1,8.84,0.08,K.P.Park UPHC,1.88,Rajiv Gandhi Government General Hospital
+73,Ward 73,VI,Thiru Vi Ka Nagar,0.81,13461,16567,13.10091,80.25878,2,0,0,0,0,0,2,14.86,0.2,Pulianthope UPHC,2.99,Govt Kilpauk Medical College Hospital
+71,Ward 71,VI,Thiru Vi Ka Nagar,0.96,13395,13896,13.10286,80.2479,1,0,0,0,1,0,1,7.47,0.52,TVK Nagar UPHC,2.77,Govt Kilpauk Medical College Hospital
+69,Ward 69,VI,Thiru Vi Ka Nagar,1.75,25492,14563,13.11262,80.24081,2,0,7,3,0,0,2,7.85,0.6,Sembuim UPHC,3.83,Govt Kilpauk Medical College Hospital
+72,Ward 72,VI,Thiru Vi Ka Nagar,1.14,14789,12955,13.1032,80.26596,0,0,0,0,0,1,0,0.0,0.63,Pulianthope UPHC,2.28,Govt. Stanley Hospital
+74,Ward 74,VI,Thiru Vi Ka Nagar,0.93,14398,15404,13.0923,80.24518,1,0,4,1,0,0,1,6.95,0.41,MMA Nagar UPHC,1.56,Govt Kilpauk Medical College Hospital
+75,Ward 75,VI,Thiru Vi Ka Nagar,0.34,5163,15174,13.09494,80.25216,1,0,1,0,0,0,1,19.37,0.27,Chellappa Street UPHC,2.06,Govt Kilpauk Medical College Hospital
+78,Ward 78,VI,Thiru Vi Ka Nagar,0.66,11027,16669,13.09022,80.25572,3,0,2,0,0,0,3,27.21,0.22,Perumalpet UPHC,1.85,Govt Kilpauk Medical College Hospital
+76,Ward 76,VI,Thiru Vi Ka Nagar,0.46,7536,16475,13.09639,80.25866,1,1,1,1,0,0,2,26.54,0.16,Perambur Dispensary,2.58,Govt Kilpauk Medical College Hospital
+53,Ward 53,V,Royapuram,1.37,16161,11797,13.10624,80.27543,2,0,1,1,0,0,2,12.38,0.23,Tondiarpet UCHC,1.23,Govt. Stanley Hospital
+51,Ward 51,V,Royapuram,0.29,5138,17644,13.11262,80.28662,1,0,0,2,0,0,1,19.46,0.3,Chennai Corporation Hospital,0.72,Govt. Stanley Hospital
+49,Ward 49,V,Royapuram,0.77,12432,16152,13.11766,80.2897,3,0,7,6,0,0,3,24.13,0.31,Sanjeevaryanpet UCHC,1.31,Govt. Stanley Hospital
+50,Ward 50,V,Royapuram,1.54,19341,12579,13.11347,80.29675,1,1,5,0,0,0,2,10.34,0.12,Government Unani Hospital,1.35,Govt. Stanley Hospital
+54,Ward 54,V,Royapuram,0.55,8438,15315,13.09995,80.27752,1,1,2,2,0,0,2,23.7,0.38,Corporation Baby Hospital,1.22,Govt. Stanley Hospital
+55,Ward 55,V,Royapuram,0.58,8894,15392,13.0994,80.28175,2,0,2,6,0,0,2,22.49,0.1,Seven Wells UPHC,0.93,Govt. Stanley Hospital
+56,Ward 56,V,Royapuram,0.57,8886,15634,13.10121,80.28705,1,0,2,3,0,0,1,11.25,0.1,BRN Garden UPHC,0.55,Govt. Stanley Hospital
+52,Ward 52,V,Royapuram,1.1,16867,15370,13.10727,80.28767,0,2,1,2,0,0,2,11.86,0.15,Govt. Stanley Hospital,0.15,Govt. Stanley Hospital
+57,Ward 57,V,Royapuram,0.83,13652,16455,13.09246,80.27973,0,0,2,0,0,0,0,0.0,0.65,P.K. Garden UPHC,1.31,Rajiv Gandhi Government General Hospital
+61,Ward 61,V,Royapuram,2.26,34263,15153,13.07056,80.25804,0,1,12,5,0,0,1,2.92,0.2,Govt Maternity Hospital,1.75,Tamil Nadu Government Multi Super Speciality Hospital
+58,Ward 58,V,Royapuram,2.44,33852,13894,13.08447,80.2654,1,0,10,14,1,0,1,2.95,0.31,UPHC UPHC37,1.35,Rajiv Gandhi Government General Hospital
+63,Ward 63,V,Royapuram,1.19,17926,15087,13.06733,80.26764,1,1,1,1,0,0,2,11.16,0.17,Government Hospital,0.74,Tamil Nadu Government Multi Super Speciality Hospital
+62,Ward 62,V,Royapuram,0.64,8535,13318,13.07462,80.26985,1,0,5,7,0,0,1,11.72,0.21,Chinthathirpet UPHC,0.75,Tamil Nadu Government Multi Super Speciality Hospital
+59,Ward 59,V,Royapuram,2.19,30762,14033,13.07719,80.27642,0,3,0,1,0,0,3,9.75,0.42,Rajiv Gandhi Government General Hospital,0.42,Rajiv Gandhi Government General Hospital
+94,Ward 94,VIII,Annanagar,1.84,21478,11696,13.11029,80.20207,1,0,1,2,0,0,1,4.66,0.49,Raja mangalam UPHC,5.75,Govt Kilpauk Medical College Hospital
+100,Ward 100,VIII,Annanagar,3.07,45620,14874,13.088,80.21305,1,1,6,0,0,0,2,4.38,0.91,Central Government Health Scheme Dispensary & Health Scheme,3.5,Govt Kilpauk Medical College Hospital
+99,Ward 99,VIII,Annanagar,1.59,22080,13855,13.08628,80.20379,0,1,7,4,0,0,1,4.53,0.3,Central Government Health Scheme Dispensary & Health Scheme,4.42,Govt Kilpauk Medical College Hospital
+95,Ward 95,VIII,Annanagar,2.17,30118,13905,13.10151,80.20059,2,0,3,2,0,0,2,6.64,0.18,Agathiar nagar UPHC,5.34,Govt Kilpauk Medical College Hospital
+96,Ward 96,VIII,Annanagar,3.03,32350,10687,13.10288,80.22628,3,0,3,1,0,0,3,9.27,0.54,N.A.(S) UPHC,3.32,Govt Kilpauk Medical College Hospital
+97,Ward 97,VIII,Annanagar,0.74,12065,16259,13.0938,80.22896,0,0,0,0,0,0,0,0.0,0.52,Ayanavaram UPHC,2.35,Govt Kilpauk Medical College Hospital
+105,Ward 105,VIII,Annanagar,1.39,21114,15219,13.06832,80.21167,2,0,7,0,0,0,2,9.47,0.29,Mmda UPHC,3.65,Govt Kilpauk Medical College Hospital
+104,Ward 104,VIII,Annanagar,1.31,21385,16308,13.08225,80.25283,1,1,10,1,0,0,2,9.35,0.62,Purusaiwakkam UPHC,1.08,Govt Kilpauk Medical College Hospital
+107,Ward 107,VIII,Annanagar,1.49,22762,15284,13.07251,80.24016,2,0,10,3,0,0,2,8.79,0.31,Chetpet UPHC,0.75,Govt Kilpauk Medical College Hospital
+98,Ward 98,VIII,Annanagar,1.17,13302,11352,13.09137,80.23608,1,1,2,1,0,0,2,15.04,0.57,ESI Hospital,1.67,Govt Kilpauk Medical College Hospital
+103,Ward 103,VIII,Annanagar,2.12,32375,15284,13.08225,80.24024,2,1,24,11,0,0,3,9.27,0.36,P.S.Nagar UPHC,0.58,Govt Kilpauk Medical College Hospital
+102,Ward 102,VIII,Annanagar,1.65,24055,14565,13.08405,80.22952,2,1,7,3,0,0,3,12.47,0.66,Kilpauk UPHC,1.67,Govt Kilpauk Medical College Hospital
+108,Ward 108,VIII,Annanagar,1.01,14863,14721,13.06438,80.2185,1,0,0,0,0,0,1,6.73,0.47,Aminjikarai UPHC,3.14,Govt Kilpauk Medical College Hospital
+106,Ward 106,VIII,Annanagar,1.05,17625,16814,13.07059,80.22246,0,0,5,1,0,0,0,0.0,0.37,Aminjikarai UPHC,2.46,Govt Kilpauk Medical College Hospital
+109,Ward 109,IX,Teynampet,0.96,14622,15283,13.06285,80.22633,1,0,0,2,0,0,1,6.84,0.3,Periyar nagar UPHC,2.55,Govt Kilpauk Medical College Hospital
+112,Ward 112,IX,Teynampet,1.03,16150,15720,13.05893,80.22084,1,0,3,0,0,0,1,6.19,0.31,Vadapalani East UPHC,3.29,Govt Kilpauk Medical College Hospital
+110,Ward 110,IX,Teynampet,2.08,31007,14900,13.06116,80.23746,1,0,1,6,1,0,1,3.23,0.42,Pushpa nagar UPHC,2.03,Govt Kilpauk Medical College Hospital
+111,Ward 111,IX,Teynampet,2.87,42767,14909,13.0588,80.25679,1,1,7,1,0,0,2,4.68,0.56,Zam bazar UPHC,2.22,Tamil Nadu Government Multi Super Speciality Hospital
+114,Ward 114,IX,Teynampet,1.67,19271,11552,13.06261,80.27893,1,1,5,3,0,0,2,10.38,0.32,Community Nursing College UPHC,0.91,Tamil Nadu Government Multi Super Speciality Hospital
+116,Ward 116,IX,Teynampet,0.67,9202,13634,13.05433,80.27772,0,0,4,4,0,0,0,0.0,0.35,Triplicane UPHC,1.72,Tamil Nadu Government Multi Super Speciality Hospital
+115,Ward 115,IX,Teynampet,0.85,13908,16318,13.05604,80.26573,1,1,0,2,0,0,2,14.38,0.22,Royapettah Government Hospital,1.74,Tamil Nadu Government Multi Super Speciality Hospital
+113,Ward 113,IX,Teynampet,1.46,24585,16808,13.05508,80.24596,0,0,16,7,1,0,0,0.0,0.7,Thousand light UPHC,2.6,Govt Kilpauk Medical College Hospital
+117,Ward 117,IX,Teynampet,1.71,28203,16518,13.0424,80.24599,1,1,12,3,0,0,2,7.09,0.9,Teynampet UPHC,4.0,Govt Kilpauk Medical College Hospital
+122,Ward 122,IX,Teynampet,1.88,26824,14254,13.02878,80.24477,0,0,10,1,1,0,0,0.0,0.81,Kotturpuram UPHC,5.51,Govt Kilpauk Medical College Hospital
+126,Ward 126,IX,Teynampet,1.05,15097,14337,13.02599,80.27247,1,0,5,2,0,0,1,6.62,0.55,Santhome UPHC,4.83,Tamil Nadu Government Multi Super Speciality Hospital
+124,Ward 124,IX,Teynampet,1.08,18053,16755,13.03565,80.26901,1,0,0,2,0,0,1,5.54,0.23,Mylapore UPHC,3.79,Tamil Nadu Government Multi Super Speciality Hospital
+125,Ward 125,IX,Teynampet,1.25,17773,14199,13.03586,80.27535,1,0,1,1,0,0,1,5.63,0.48,Mylapore UPHC,3.73,Tamil Nadu Government Multi Super Speciality Hospital
+123,Ward 123,IX,Teynampet,2.19,34412,15701,13.03133,80.25666,2,1,15,12,0,0,3,8.72,0.27,Corporation Hospital,4.64,Tamil Nadu Government Multi Super Speciality Hospital
+118,Ward 118,IX,Teynampet,1.8,28952,16065,13.04649,80.25217,1,2,6,2,0,0,3,10.36,0.66,Gopalapuram Dispensary,3.49,Tamil Nadu Government Multi Super Speciality Hospital
+120,Ward 120,IX,Teynampet,0.56,7525,13377,13.04945,80.27603,2,1,7,0,0,1,3,39.87,0.28,Triplicane UPHC,2.23,Tamil Nadu Government Multi Super Speciality Hospital
+121,Ward 121,IX,Teynampet,0.87,15146,17324,13.04394,80.27208,1,0,7,5,0,0,1,6.6,0.51,Krishnampet UPHC,2.84,Tamil Nadu Government Multi Super Speciality Hospital
+79,Ward 79,VII,Ambattur,2.07,21316,10298,13.13203,80.15263,1,0,0,1,0,0,1,4.69,0.28,Oragadam UPHC,11.54,Govt Kilpauk Medical College Hospital
+80,Ward 80,VII,Ambattur,1.48,20061,13590,13.13172,80.16154,1,0,0,0,0,0,1,4.98,0.88,Oragadam UPHC,10.7,Govt Kilpauk Medical College Hospital
+83,Ward 83,VII,Ambattur,6.88,45309,6583,13.12319,80.18827,1,0,2,1,0,0,1,2.21,1.62,Korattur UPHC,7.81,Govt Kilpauk Medical College Hospital
+81,Ward 81,VII,Ambattur,1.67,21601,12939,13.1197,80.15212,1,1,11,2,0,0,2,9.26,0.28,Venkatapuram UPHC,10.94,Govt Kilpauk Medical College Hospital
+82,Ward 82,VII,Ambattur,4.74,46722,9847,13.12817,80.16985,0,0,0,0,0,0,0,0.0,1.18,Meenabedu UPHC,9.74,Govt Kilpauk Medical College Hospital
+85,Ward 85,VII,Ambattur,4.41,42103,9553,13.10626,80.1519,1,0,0,0,0,0,1,2.38,0.73,Varadharajapuram UPHC I,10.42,Govt Kilpauk Medical College Hospital
+84,Ward 84,VII,Ambattur,3.58,44116,12319,13.10694,80.17938,0,0,0,1,0,0,0,0.0,0.46,Korattur UPHC,7.66,Govt Kilpauk Medical College Hospital
+93,Ward 93,VII,Ambattur,1.23,18392,14944,13.07996,80.18698,1,0,1,1,0,0,1,5.44,0.29,Mugappair (E) UPHC,6.15,Govt Kilpauk Medical College Hospital
+90,Ward 90,VII,Ambattur,1.48,21548,14592,13.08669,80.19307,0,0,0,1,0,0,0,0.0,0.47,Padi Round Building UPHC,5.57,Govt Kilpauk Medical College Hospital
+91,Ward 91,VII,Ambattur,1.51,19526,12903,13.08133,80.17526,1,0,3,0,0,0,1,5.12,0.71,Mugappair (W) UPHC,7.43,Govt Kilpauk Medical College Hospital
+92,Ward 92,VII,Ambattur,1.16,18193,15621,13.0804,80.1828,0,0,5,1,0,0,0,0.0,0.42,Mugappair (E) UPHC,6.61,Govt Kilpauk Medical College Hospital
+88,Ward 88,VII,Ambattur,0.75,11946,15887,13.09624,80.19083,0,0,1,0,0,0,0,0.0,0.75,Padi Round Building UPHC,6.07,Govt Kilpauk Medical College Hospital
+87,Ward 87,VII,Ambattur,0.81,10832,13404,13.09501,80.18173,2,0,0,2,0,0,2,18.46,0.36,Ambattur UCHC,6.97,Govt Kilpauk Medical College Hospital
+89,Ward 89,VII,Ambattur,0.86,13317,15416,13.09113,80.18071,1,0,2,0,0,0,1,7.51,0.48,Ambattur UCHC,6.98,Govt Kilpauk Medical College Hospital
+192,Ward 192,XV,Sozhinganallur,2.52,28640,11364,12.94895,80.25457,1,0,4,0,0,0,1,3.49,0.18,Neelangarai UPHC,13.56,Tamil Nadu Government Multi Super Speciality Hospital
+193,Ward 193,XV,Sozhinganallur,2.43,30650,12628,12.94437,80.24061,2,0,2,1,0,0,2,6.53,0.45,Thoraipakkam UPHC,14.37,Tamil Nadu Government Multi Super Speciality Hospital
+194,Ward 194,XV,Sozhinganallur,2.2,26333,11944,12.93575,80.23748,0,0,4,8,0,0,0,0.0,0.54,Kannagi nagar UPHC near Kannagi nagar Amma unavagam Kannakinagar,15.38,Tamil Nadu Government Multi Super Speciality Hospital
+195,Ward 195,XV,Sozhinganallur,1.74,18028,10357,12.92608,80.23542,1,0,0,0,0,0,1,5.55,0.65,Kannagi nagar UPHC near Kannagi nagar Amma unavagam Kannakinagar,16.48,Tamil Nadu Government Multi Super Speciality Hospital
+196,Ward 196,XV,Sozhinganallur,5.24,36220,6914,12.92263,80.24951,0,0,1,0,0,0,0,0.0,1.5,Kannagi nagar UPHC near Kannagi nagar Amma unavagam Kannakinagar,16.53,Tamil Nadu Government Multi Super Speciality Hospital
+197,Ward 197,XV,Sozhinganallur,9.04,57997,6417,12.90619,80.22706,1,0,6,3,0,0,1,1.72,1.57,Omr UPHC,18.85,Tamil Nadu Government Multi Super Speciality Hospital
+198,Ward 198,XV,Sozhinganallur,8.76,41615,4749,12.89105,80.24545,1,0,0,0,0,0,1,2.4,0.77,Chemmancherry UCHC,20.07,Tamil Nadu Government Multi Super Speciality Hospital
+199,Ward 199,XV,Sozhinganallur,3.01,12876,4274,12.86881,80.24667,0,0,0,0,0,0,0,0.0,2.24,Chemmancherry UCHC,22.5,Tamil Nadu Government Multi Super Speciality Hospital
+191,Ward 191,XIV,Perungudi,2.28,21912,9624,12.91872,80.20321,1,0,1,3,0,0,1,4.56,1.01,Jalladayanpet UPHC,18.28,Govt Kilpauk Medical College Hospital
+183,Ward 183,XIV,Perungudi,2.51,30869,12279,12.97343,80.25618,0,0,3,4,0,0,0,0.0,0.77,Thiruvanmiyur PHC,10.84,Tamil Nadu Government Multi Super Speciality Hospital
+185,Ward 185,XIV,Perungudi,2.1,23132,11031,12.9621,80.2539,1,1,1,1,0,0,2,8.65,0.28,Palavakkam UPHC,12.13,Tamil Nadu Government Multi Super Speciality Hospital
+184,Ward 184,XIV,Perungudi,2.93,27670,9447,12.96889,80.23861,0,1,2,0,0,0,1,3.61,0.56,UCHC Perungudi,11.82,Tamil Nadu Government Multi Super Speciality Hospital
+186,Ward 186,XIV,Perungudi,1.86,21801,11709,12.95897,80.23851,0,0,1,0,0,0,0,0.0,0.85,UCHC Perungudi,12.87,Tamil Nadu Government Multi Super Speciality Hospital
+187,Ward 187,XIV,Perungudi,0.89,10440,11743,12.96363,80.19419,0,1,2,0,0,0,1,9.58,0.21,Malar Clinic,13.84,Govt Kilpauk Medical College Hospital
+169,Ward 169,XIV,Perungudi,2.7,38255,14165,12.97129,80.20085,1,0,2,0,0,0,1,2.61,0.03,Puzhuthivakkam UPHC,12.78,Govt Kilpauk Medical College Hospital
+168,Ward 168,XIV,Perungudi,0.85,13402,15762,12.97782,80.19562,0,0,0,0,0,0,0,0.0,0.9,Puzhuthivakkam UPHC,12.33,Govt Kilpauk Medical College Hospital
+190,Ward 190,XIV,Perungudi,4.65,28558,6148,12.92503,80.20996,0,0,4,8,0,0,0,0.0,1.1,Pallikaranai UPHC,17.43,Govt Kilpauk Medical College Hospital
+188,Ward 188,XIV,Perungudi,4.3,49611,11525,12.95367,80.2022,1,0,1,0,0,0,1,2.02,1.14,Madipakkam UPHC,14.57,Govt Kilpauk Medical College Hospital
+179,Ward 179,XIII,Adyar,2.38,31211,13088,12.97791,80.22717,1,0,9,0,0,0,1,3.2,0.98,Velachery UPHC,11.31,Govt Kilpauk Medical College Hospital
+182,Ward 182,XIII,Adyar,1.81,25200,13930,12.98008,80.26089,1,1,3,13,0,0,2,7.94,0.48,Thiruvanmiyur PHC,10.03,Tamil Nadu Government Multi Super Speciality Hospital
+181,Ward 181,XIII,Adyar,1.85,23784,12835,12.98934,80.26293,0,1,7,12,1,0,1,4.2,0.29,Corporation Hospital,8.98,Tamil Nadu Government Multi Super Speciality Hospital
+176,Ward 176,XIII,Adyar,3.01,25596,8490,13.00389,80.26551,1,1,3,13,1,0,2,7.81,0.37,Adyar UPHC,7.34,Tamil Nadu Government Multi Super Speciality Hospital
+173,Ward 173,XIII,Adyar,3.99,29184,7322,13.01902,80.26413,1,1,5,5,0,0,2,6.85,0.55,Raja Annamalai Puram Dispensary No.6,5.7,Tamil Nadu Government Multi Super Speciality Hospital
+170,Ward 170,XIII,Adyar,3.72,45746,12312,13.01806,80.20897,1,0,2,2,0,0,1,2.19,0.35,Ekatuthangal UPHC,7.69,Govt Kilpauk Medical College Hospital
+171,Ward 171,XIII,Adyar,3.84,39693,10329,13.01879,80.23166,1,0,5,3,0,0,1,2.52,0.83,Saidapet Maternity hospital,6.75,Govt Kilpauk Medical College Hospital
+175,Ward 175,XIII,Adyar,2.34,29313,12503,13.00283,80.2523,1,1,12,5,0,0,2,6.82,0.49,Adyar UCHC,7.77,Tamil Nadu Government Multi Super Speciality Hospital
+180,Ward 180,XIII,Adyar,2.65,33304,12571,12.98745,80.24818,1,0,1,3,0,0,1,3.0,0.73,Adyar Dispensary,9.53,Tamil Nadu Government Multi Super Speciality Hospital
+172,Ward 172,XIII,Adyar,2.56,25865,10114,13.01188,80.24418,1,1,1,2,0,0,2,7.73,1.06,VHS PHC,7.17,Tamil Nadu Government Multi Super Speciality Hospital
+177,Ward 177,XIII,Adyar,2.46,31674,12898,12.98716,80.21104,2,2,3,1,0,0,4,12.63,0.36,"PHC, Arambakkam",10.74,Govt Kilpauk Medical College Hospital
+178,Ward 178,XIII,Adyar,1.48,21725,14633,12.97844,80.21727,0,0,5,3,0,0,0,0.0,1.54,"PHC, Arambakkam",11.47,Govt Kilpauk Medical College Hospital
+160,Ward 160,XII,Alandur,0.67,10720,16010,13.00396,80.20604,2,1,4,2,0,0,3,27.99,0.09,Alandur UCHC,9.22,Govt Kilpauk Medical College Hospital
+161,Ward 161,XII,Alandur,0.75,12829,17104,12.99654,80.20279,1,0,0,0,0,0,1,7.79,0.28,Adambakkam UPHC,10.12,Govt Kilpauk Medical College Hospital
+165,Ward 165,XII,Alandur,1.1,18132,16415,12.98275,80.19847,0,0,5,1,0,0,0,0.0,1.02,Sastri nagar UPHC,11.7,Govt Kilpauk Medical College Hospital
+159,Ward 159,XII,Alandur,3.38,9807,2901,12.99234,80.16903,0,0,0,0,0,0,0,0.0,2.06,Government Mini Clinic,12.53,Govt Kilpauk Medical College Hospital
+156,Ward 156,XII,Alandur,3.19,41044,12867,13.01953,80.16164,1,0,1,1,0,0,1,2.44,0.61,Mugalivakkam UPHC PHC,11.04,Govt Kilpauk Medical College Hospital
+158,Ward 158,XII,Alandur,2.05,13583,6624,13.01638,80.18774,0,1,1,1,0,0,1,7.36,0.6,Nandambakkam Dispensary,9.18,Govt Kilpauk Medical College Hospital
+167,Ward 167,XII,Alandur,1.41,22581,16011,12.97719,80.18609,0,0,11,0,0,0,0,0.0,0.54,Government Mini Clinic,12.86,Govt Kilpauk Medical College Hospital
+166,Ward 166,XII,Alandur,1.23,13390,10901,12.97818,80.17902,1,1,0,0,1,0,2,14.94,0.23,Government Mini Clinic,13.16,Govt Kilpauk Medical College Hospital
+164,Ward 164,XII,Alandur,0.63,12566,20095,12.9874,80.18482,0,0,4,2,0,0,0,0.0,0.51,Pazhavanthangal UPHC,11.96,Govt Kilpauk Medical College Hospital
+162,Ward 162,XII,Alandur,1.28,17044,13275,12.9913,80.19111,1,0,1,0,0,0,1,5.87,0.42,Pazhavanthangal UPHC,11.23,Govt Kilpauk Medical College Hospital
+163,Ward 163,XII,Alandur,0.52,9942,18956,12.99009,80.20181,0,0,2,2,0,0,0,0.0,0.39,Sastri nagar UPHC,10.81,Govt Kilpauk Medical College Hospital
+150,Ward 150,XI,Valasaravakkam,1.04,11735,11266,13.03765,80.15307,0,0,1,0,0,0,0,0.0,1.42,Sakthi Nagar UPHC,10.81,Govt Kilpauk Medical College Hospital
+153,Ward 153,XI,Valasaravakkam,2.28,23016,10116,13.02794,80.15549,2,0,0,0,0,0,2,8.69,0.99,Sakthi Nagar UPHC,11.08,Govt Kilpauk Medical College Hospital
+149,Ward 149,XI,Valasaravakkam,1.61,21231,13179,13.047,80.17916,0,0,6,11,0,0,0,0.0,1.09,Nerkundaram UPHC,7.82,Govt Kilpauk Medical College Hospital
+152,Ward 152,XI,Valasaravakkam,1.37,21100,15446,13.04066,80.17914,0,0,3,4,0,0,0,0.0,0.85,Ramapuram UPHC,8.16,Govt Kilpauk Medical College Hospital
+155,Ward 155,XI,Valasaravakkam,1.55,22044,14218,13.03048,80.18349,0,0,5,3,0,0,0,0.0,0.85,Nesapakkam UPHC,8.42,Govt Kilpauk Medical College Hospital
+154,Ward 154,XI,Valasaravakkam,1.03,15143,14696,13.03036,80.17513,1,0,0,0,0,0,1,6.6,0.54,Ramapuram UPHC,9.15,Govt Kilpauk Medical College Hospital
+151,Ward 151,XI,Valasaravakkam,1.48,22066,14895,13.03175,80.16891,1,0,4,0,0,0,1,4.53,0.52,Sakthi Nagar UPHC,9.62,Govt Kilpauk Medical College Hospital
+146,Ward 146,XI,Valasaravakkam,1.3,19740,15155,13.05233,80.16407,1,0,0,0,0,0,1,5.07,1.23,Maduravoyal UPHC(Unit office 32 Poonamalle high road),9.1,Govt Kilpauk Medical College Hospital
+143,Ward 143,XI,Valasaravakkam,2.61,27799,10631,13.07361,80.16857,0,0,0,0,0,0,0,0.0,1.19,Maduravoyal UPHC(Unit office 32 Poonamalle high road),8.16,Govt Kilpauk Medical College Hospital
+145,Ward 145,XI,Valasaravakkam,1.82,22496,12383,13.06589,80.18495,1,0,0,0,0,0,1,4.45,0.4,Nerkundram UPHC New colony Perumal koil street,6.52,Govt Kilpauk Medical College Hospital
+144,Ward 144,XI,Valasaravakkam,1.13,14724,13080,13.06461,80.17723,0,0,1,0,0,0,0,0.0,1.12,Nerkundram UPHC New colony Perumal koil street,7.36,Govt Kilpauk Medical College Hospital
+148,Ward 148,XI,Valasaravakkam,0.92,12281,13277,13.05725,80.18399,1,0,0,0,0,0,1,8.14,0.19,Nerkundaram UPHC,6.88,Govt Kilpauk Medical College Hospital
+127,Ward 127,X,Kodambakkam,3.77,44638,11826,13.06765,80.20021,1,0,3,5,0,0,1,2.24,1.24,Koyambedu UPHC,4.86,Govt Kilpauk Medical College Hospital
+136,Ward 136,X,Kodambakkam,1.89,28089,14883,13.04103,80.23626,1,0,8,4,0,0,1,3.56,0.2,T.Nagar UPHC,4.23,Govt Kilpauk Medical College Hospital
+128,Ward 128,X,Kodambakkam,2.0,29643,14844,13.0456,80.18996,1,1,12,14,0,0,2,6.75,1.02,Virugambakkam PHC,6.87,Govt Kilpauk Medical College Hospital
+129,Ward 129,X,Kodambakkam,1.85,25364,13721,13.05369,80.2025,1,0,13,16,0,0,1,3.94,0.35,Dasarathapuram UPHC,5.24,Govt Kilpauk Medical College Hospital
+138,Ward 138,X,Kodambakkam,1.16,17162,14766,13.0316,80.20326,1,1,1,1,0,0,2,11.65,0.11,Jafferkhanpet UPHC,6.8,Govt Kilpauk Medical College Hospital
+137,Ward 137,X,Kodambakkam,1.63,23676,14535,13.03569,80.19585,1,0,2,7,0,0,1,4.22,0.67,Nesapakkam UPHC,7.03,Govt Kilpauk Medical College Hospital
+142,Ward 142,X,Kodambakkam,1.14,18800,16453,13.02172,80.21869,2,0,5,5,0,0,2,10.64,0.38,Saidapet UPHC,6.85,Govt Kilpauk Medical College Hospital
+139,Ward 139,X,Kodambakkam,0.71,11849,16782,13.02697,80.21288,1,1,1,0,0,0,2,16.88,0.34,Saidapet West UPHC,6.62,Govt Kilpauk Medical College Hospital
+140,Ward 140,X,Kodambakkam,0.69,12055,17576,13.03043,80.22125,1,0,3,3,0,0,1,8.3,0.32,Kumaran Nagar UPHC,5.86,Govt Kilpauk Medical College Hospital
+141,Ward 141,X,Kodambakkam,0.82,14257,17298,13.03086,80.23133,1,0,5,2,1,1,1,7.01,0.33,C.I.T Nagar UPHC,5.45,Govt Kilpauk Medical College Hospital
+134,Ward 134,X,Kodambakkam,1.05,16303,15454,13.04911,80.22447,1,0,7,0,0,0,1,6.13,0.6,Vadapalani UCHC,3.86,Govt Kilpauk Medical College Hospital
+135,Ward 135,X,Kodambakkam,0.94,15423,16471,13.04006,80.22368,0,0,3,3,0,0,0,0.0,0.86,Nallankuppam UPHC,4.78,Govt Kilpauk Medical College Hospital
+133,Ward 133,X,Kodambakkam,1.03,18124,17628,13.04164,80.21896,2,0,3,2,0,0,2,11.04,0.36,Nallankuppam UPHC,4.88,Govt Kilpauk Medical College Hospital
+131,Ward 131,X,Kodambakkam,1.19,19343,16276,13.04122,80.2056,1,1,6,1,0,0,2,10.34,0.48,Saligramam UPHC,5.84,Govt Kilpauk Medical College Hospital
+130,Ward 130,X,Kodambakkam,1.18,20691,17478,13.05365,80.21286,1,0,8,3,0,0,1,4.83,0.39,Vadapalani (W) UPHC,4.33,Govt Kilpauk Medical College Hospital

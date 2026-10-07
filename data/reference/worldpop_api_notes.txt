@@ -1,0 +1,305 @@
+WorldPop
+API
+Home
+Map
+Docs
+About
+RETHICK CB
+Logout
+WorldPop API v2 (Global2 Data)
+REST API for calculating population statistics within custom geographic areas. This service provides access to WorldPop high-resolution demographic data with global coverage from 2015 to 2030.
+
+API Versions
+Two API interfaces are available.
+
+Legacy API (v1 compatible)
+For existing integrations. Uses form-encoded requests. Same interface as the WorldPop API v1.
+
+/wp_popsum/submit, /wp_agesexsum/submit
+Modern API (v2)
+For new integrations. Follows REST API standards with proper JSON request/response structure, higher limits.
+
+/v2/population, /v2/agesex
+Modern API
+POST/population
+Calculate total population within a polygon.
+
+Parameters:
+
+geojson - Polygon or MultiPolygon geometry (WGS84)
+year - Data year (2015-2030)
+resolution - "100m" or "1km"
+Python
+JavaScript
+cURL
+R
+import requests
+import time
+
+API_URL = "https://api.worldpop.org/v2"
+
+# Define polygon (London area)
+payload = {
+    "geojson": {
+        "type": "Polygon",
+        "coordinates": [[
+            [-0.15, 51.50], [-0.10, 51.50],
+            [-0.10, 51.48], [-0.15, 51.48],
+            [-0.15, 51.50]
+        ]]
+    },
+    "year": 2020,
+    "resolution": "100m"
+}
+
+# Submit task
+response = requests.post(f"{API_URL}/population", json=payload)
+task_id = response.json()["task_id"]
+
+# Poll for result
+while True:
+    result = requests.get(f"{API_URL}/tasks/{task_id}").json()
+    if result["status"] == "success":
+        print(f"Population: {result['result']['total_population']:,.0f}")
+        break
+    elif result["status"] == "failure":
+        print(f"Error: {result.get('error')}")
+        break
+    time.sleep(2)
+Copy
+POST/agesex
+Calculate population by age groups and sex.
+
+Additional parameters:
+
+age_range - [min, max], e.g. [0, 18] for children
+sex - "male", "female", or "both"
+Python
+JavaScript
+cURL
+R
+import requests
+import time
+
+API_URL = "https://api.worldpop.org/v2"
+
+payload = {
+    "geojson": {
+        "type": "Polygon",
+        "coordinates": [[
+            [-0.15, 51.50], [-0.10, 51.50],
+            [-0.10, 51.48], [-0.15, 51.48],
+            [-0.15, 51.50]
+        ]]
+    },
+    "year": 2020,
+    "age_range": [0, 18],  # Children only
+    "sex": "both",
+    "resolution": "100m"
+}
+
+response = requests.post(f"{API_URL}/agesex", json=payload)
+task_id = response.json()["task_id"]
+
+# Poll and get demographic breakdown
+while True:
+    result = requests.get(f"{API_URL}/tasks/{task_id}").json()
+    if result["status"] == "success":
+        for row in result["result"]["agesex_pyramid"]:
+            print(f"{row['age']}: M={row['male']:.0f}, F={row['female']:.0f}")
+        break
+    time.sleep(2)
+Copy
+GET/tasks/{task_id}
+Check task status and retrieve results.
+
+GET /tasks/{task_id}
+
+Response (population):
+{
+  "task_id": "abc-123-...",
+  "status": "success",
+  "progress": 100.0,
+  "stage": "Completed",
+  "result": {
+    "total_population": 125432.67,
+    "area_km2": 15.25,
+    "data_year": 2020,
+    "data_source": "WorldPop Global 2 Population Data",
+    "processing_time_ms": 1850,
+    "population_density": 8223.45
+  },
+  "error": null
+}
+Copy
+GET /tasks/{task_id}
+
+Response (agesex):
+{
+  "task_id": "abc-123-...",
+  "status": "success",
+  "progress": 100.0,
+  "stage": "Completed",
+  "result": {
+    "agesex_pyramid": [
+      {"class": "00", "age": "0 to 1", "male": 1250, "female": 1198},
+      {"class": "01", "age": "1 to 5", "male": 4520, "female": 4380},
+      {"class": "05", "age": "5 to 10", "male": 5120, "female": 4980}
+    ],
+    "total_population": 125432.67,
+    "area_km2": 15.25,
+    "data_year": 2020,
+    "data_source": "WorldPop Global 2 Population Data",
+    "age_range": [0, 90],
+    "sex": "both",
+    "processing_time_ms": 2500
+  },
+  "error": null
+}
+Copy
+Legacy API
+Form-encoded endpoints for compatibility with existing integrations. Similar interface to the original WorldPop API.
+
+POST/wp_popsum/submit
+Calculate total population. Uses form-encoded geojson_text parameter.
+
+POST /wp_popsum/submit
+Content-Type: application/x-www-form-urlencoded
+
+geojson_text={
+  "wpRequest": "population_sum",
+  "type": "Polygon",
+  "coordinates": [[
+    [-0.15, 51.50], [-0.10, 51.50],
+    [-0.10, 51.48], [-0.15, 51.48],
+    [-0.15, 51.50]
+  ]],
+  "year": 2020
+}
+
+Response:
+{
+  "status": "created",
+  "status_code": 200,
+  "error": false,
+  "error_message": null,
+  "taskid": "ee2e98e9-b9ea-5eb6-9c26-ecb8cb3469a3"
+}
+Copy
+POST/wp_agesexsum/submit
+Calculate age-sex breakdown. Same format with additional parameters.
+
+POST /wp_agesexsum/submit
+Content-Type: application/x-www-form-urlencoded
+
+geojson_text={
+  "wpRequest": "agesex_analysis",
+  "type": "Polygon",
+  "coordinates": [[...]],
+  "year": 2020,
+  "age_range": [0, 20],
+  "sex": "both"
+}
+
+Response:
+{
+  "status": "created",
+  "status_code": 200,
+  "error": false,
+  "error_message": null,
+  "taskid": "abc12345-def6-7890-ghij-klmnopqrstuv"
+}
+Copy
+GET/check/{taskid}
+Check task status and retrieve results.
+
+GET /check/{taskid}
+
+Response (pending):
+{
+  "status": "created",
+  "status_code": 200,
+  "error": false,
+  "error_message": null,
+  "data": null,
+  "taskid": "ee2e98e9-b9ea-5eb6-9c26-ecb8cb3469a3",
+  "startTime": "2019-10-16 10:26:03.396803",
+  "endTime": null,
+  "executionTime": null
+}
+
+Response (population finished):
+{
+  "status": "finished",
+  "status_code": 200,
+  "error": false,
+  "error_message": null,
+  "data": {
+    "total_population": 1705754.5
+  },
+  "taskid": "ee2e98e9-b9ea-5eb6-9c26-ecb8cb3469a3",
+  "startTime": "2019-10-16 10:26:03.396803",
+  "endTime": "2019-10-16 10:26:04.447173",
+  "executionTime": 1
+}
+
+Response (agesex finished):
+{
+  "status": "finished",
+  "status_code": 200,
+  "error": false,
+  "error_message": null,
+  "data": {
+    "agesexpyramid": [
+      {"class": "0", "age": "0 to 1", "male": 9344.5, "female": 8928.76},
+      {"class": "1", "age": "1 to 5", "male": 34786.76, "female": 33531.97}
+    ]
+  },
+  "taskid": "308d3762-21ca-5280-8a08-d1bbc67aa27d",
+  "startTime": "2019-10-16 12:05:34.375312",
+  "endTime": "2019-10-16 12:05:37.194524",
+  "executionTime": 3
+}
+Copy
+Rate Limits
+You do not need to authenticate to use the WorldPop API. The following rate limits apply:
+
+Without API Key	With API Key	Custom
+Daily requests	1,000	10,000	Based on approved request
+Max polygon area	50,000 km2	500,000 km2	Based on approved request
+Requesting an API Key
+
+To get higher limits with an API key:
+
+Register an account
+Contact us at info@worldpop.soton.ac.uk to request authorization
+Once approved, your API key will be available in your account page
+Using your API Key
+
+Add the X-API-Key header to your requests:
+
+Python
+JavaScript
+cURL
+R
+import requests
+
+API_KEY = "your_api_key_here"
+
+response = requests.post(
+    "https://api.worldpop.org/v2/population",
+    headers={"X-API-Key": API_KEY},
+    json={
+        "geojson": {"type": "Polygon", "coordinates": [[...]]},
+        "year": 2020
+    }
+)
+Copy
+Resources
+Interactive API Documentation (Swagger UI)
+API Reference (ReDoc)
+Interactive Map - test queries visually
+WorldPop Main Website
+WorldPop, University of Southampton
+
+Tech Support: b.nosatiuk@soton.ac.uk

@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>chennai_tbs.geojson</name>
+	<Schema name="chennai_tbs" id="J_chennai_tbs_SSSISSIISISI">
+		<SimpleField type="string" name="ADDRESS"><displayName>ADDRESS</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ASSET_NAME"><displayName>ASSET_NAME</displayName>
+</SimpleField>
+		<SimpleField type="string" name="DISTRICT"><displayName>DISTRICT</displayName>
+</SimpleField>
+		<SimpleField type="int" name="DIV"><displayName>DIV</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FINAL_CODE"><displayName>FINAL_CODE</displayName>
+</SimpleField>
+		<SimpleField type="string" name="NAME_ZONE"><displayName>NAME_ZONE</displayName>
+</SimpleField>
+		<SimpleField type="int" name="OBJECTID"><displayName>OBJECTID</displayName>
+</SimpleField>
+		<SimpleField type="int" name="OBJECTID_1"><displayName>OBJECTID_1</displayName>
+</SimpleField>
+		<SimpleField type="string" name="REMARKS"><displayName>REMARKS</displayName>
+</SimpleField>
+		<SimpleField type="int" name="S_NO"><displayName>S_NO</displayName>
+</SimpleField>
+		<SimpleField type="string" name="TYPE"><displayName>TYPE</displayName>
+</SimpleField>
+		<SimpleField type="int" name="ZONE"><displayName>ZONE</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="chennai_tbs_style">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>$[chennai_tbs/ADDRESS/displayName]</b></td><td>$[chennai_tbs/ADDRESS]</td></tr>
+  <tr><td><b>$[chennai_tbs/ASSET_NAME/displayName]</b></td><td>$[chennai_tbs/ASSET_NAME]</td></tr>
+  <tr><td><b>$[chennai_tbs/DISTRICT/displayName]</b></td><td>$[chennai_tbs/DISTRICT]</td></tr>
+  <tr><td><b>$[chennai_tbs/DIV/displayName]</b></td><td>$[chennai_tbs/DIV]</td></tr>
+  <tr><td><b>$[chennai_tbs/FINAL_CODE/displayName]</b></td><td>$[chennai_tbs/FINAL_CODE]</td></tr>
+  <tr><td><b>$[chennai_tbs/NAME_ZONE/displayName]</b></td><td>$[chennai_tbs/NAME_ZONE]</td></tr>
+  <tr><td><b>$[chennai_tbs/OBJECTID/displayName]</b></td><td>$[chennai_tbs/OBJECTID]</td></tr>
+  <tr><td><b>$[chennai_tbs/OBJECTID_1/displayName]</b></td><td>$[chennai_tbs/OBJECTID_1]</td></tr>
+  <tr><td><b>$[chennai_tbs/REMARKS/displayName]</b></td><td>$[chennai_tbs/REMARKS]</td></tr>
+  <tr><td><b>$[chennai_tbs/S_NO/displayName]</b></td><td>$[chennai_tbs/S_NO]</td></tr>
+  <tr><td><b>$[chennai_tbs/TYPE/displayName]</b></td><td>$[chennai_tbs/TYPE]</td></tr>
+  <tr><td><b>$[chennai_tbs/ZONE/displayName]</b></td><td>$[chennai_tbs/ZONE]</td></tr>
+</table>
+$[description]]]></text>
+		</BalloonStyle>
+	</Style>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">V.O.C Nagar (Jeeva Nagar) UPHC, No.1, Chelliamman Koil St, Tondaiyarpet, Chennai - 81</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">North</SimpleData>
+				<SimpleData name="DIV">40</SimpleData>
+				<SimpleData name="FINAL_CODE">TB5</SimpleData>
+				<SimpleData name="NAME_ZONE">Tondiarpet</SimpleData>
+				<SimpleData name="OBJECTID">16</SimpleData>
+				<SimpleData name="OBJECTID_1">1</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">5</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">4</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.28627280000001,13.1326238,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Vivekanandha UPHC (Kodungaiyur II), No.39, Appar st, Vivekananda Nagar, kodungaiyur, Chennai - 118</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">North</SimpleData>
+				<SimpleData name="DIV">36</SimpleData>
+				<SimpleData name="FINAL_CODE">TB4</SimpleData>
+				<SimpleData name="NAME_ZONE">Kodungaiyur</SimpleData>
+				<SimpleData name="OBJECTID">21</SimpleData>
+				<SimpleData name="OBJECTID_1">2</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">4</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">4</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2582752,13.1305808,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Mylapore UPHC,22,Mundakanniaman Koil st Mylapore,Ch-4.D</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">Central</SimpleData>
+				<SimpleData name="DIV">124</SimpleData>
+				<SimpleData name="FINAL_CODE">TB22</SimpleData>
+				<SimpleData name="NAME_ZONE">Mylapore</SimpleData>
+				<SimpleData name="OBJECTID">27</SimpleData>
+				<SimpleData name="OBJECTID_1">3</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">22</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">9</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2710003,13.0364315,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Teynampet UPHC, 40,K.B.Dasan raod, Teynampet, Ch-18, HP</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">Central</SimpleData>
+				<SimpleData name="DIV">122</SimpleData>
+				<SimpleData name="FINAL_CODE">TB21</SimpleData>
+				<SimpleData name="NAME_ZONE">Teyanmapet</SimpleData>
+				<SimpleData name="OBJECTID">38</SimpleData>
+				<SimpleData name="OBJECTID_1">4</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">21</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">9</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2503392,13.0355026,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Pushpa nagar UPHC, Pushpa nagar I main road, Nungampakkam, Chennai-34.HP</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">Central</SimpleData>
+				<SimpleData name="DIV">110</SimpleData>
+				<SimpleData name="FINAL_CODE">TB19</SimpleData>
+				<SimpleData name="NAME_ZONE">Nungambakkam</SimpleData>
+				<SimpleData name="OBJECTID">62</SimpleData>
+				<SimpleData name="OBJECTID_1">5</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">19</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">9</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2392416,13.0578174,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">MMDA,21/63,D Block,Pandian St, MMDA Colony, Ch-106</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">Central</SimpleData>
+				<SimpleData name="DIV">105</SimpleData>
+				<SimpleData name="FINAL_CODE">TB18</SimpleData>
+				<SimpleData name="NAME_ZONE">MMDA</SimpleData>
+				<SimpleData name="OBJECTID">69</SimpleData>
+				<SimpleData name="OBJECTID_1">6</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">18</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">8</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2136758,13.066556,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Kilpauk HP Temple st,New Avadi road,Kilpauk,Ch-10.</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">Central</SimpleData>
+				<SimpleData name="DIV">103</SimpleData>
+				<SimpleData name="FINAL_CODE">TB17</SimpleData>
+				<SimpleData name="NAME_ZONE">Aminjikarai</SimpleData>
+				<SimpleData name="OBJECTID">71</SimpleData>
+				<SimpleData name="OBJECTID_1">7</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">17</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">8</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2345248,13.0805976,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Villiwakkam UPHC, Mannady st, Villiwakkam, (Near.Bus Depo),east mada street,Ch-49.D</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">Central</SimpleData>
+				<SimpleData name="DIV">94</SimpleData>
+				<SimpleData name="FINAL_CODE">TB16</SimpleData>
+				<SimpleData name="NAME_ZONE">Villivakkam</SimpleData>
+				<SimpleData name="OBJECTID">76</SimpleData>
+				<SimpleData name="OBJECTID_1">8</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">16</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">8</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2115135,13.1082623,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Pulianthope UPHC,40,Thiruvengadasamy street, Pulianthope, Ch-012.</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">East</SimpleData>
+				<SimpleData name="DIV">73</SimpleData>
+				<SimpleData name="FINAL_CODE">TB12</SimpleData>
+				<SimpleData name="NAME_ZONE">Piliyanthope</SimpleData>
+				<SimpleData name="OBJECTID">83</SimpleData>
+				<SimpleData name="OBJECTID_1">9</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">12</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">6</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2606274,13.1008566,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Kolathur UPHC, Srivinasa Nagar 3rd Main Road, Kolathur, chennai - 99,HP</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">East</SimpleData>
+				<SimpleData name="DIV">65</SimpleData>
+				<SimpleData name="FINAL_CODE">TB10</SimpleData>
+				<SimpleData name="NAME_ZONE">Kolathur</SimpleData>
+				<SimpleData name="OBJECTID">88</SimpleData>
+				<SimpleData name="OBJECTID_1">10</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">10</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">6</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.20537710000001,13.1201057,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Chellappa Street  UPHC,  Otteri,ch-12</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">East</SimpleData>
+				<SimpleData name="DIV">75</SimpleData>
+				<SimpleData name="FINAL_CODE">TB13</SimpleData>
+				<SimpleData name="NAME_ZONE">TPMF</SimpleData>
+				<SimpleData name="OBJECTID">91</SimpleData>
+				<SimpleData name="OBJECTID_1">11</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">13</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">6</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2533907,13.0926592,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Kondithope UPHC, No.60, Basin Bridge Road, Kondithope,        Ch-21.</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">East</SimpleData>
+				<SimpleData name="DIV">53</SimpleData>
+				<SimpleData name="FINAL_CODE">TB7</SimpleData>
+				<SimpleData name="NAME_ZONE">Basin bridge</SimpleData>
+				<SimpleData name="OBJECTID">107</SimpleData>
+				<SimpleData name="OBJECTID_1">12</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">7</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">5</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2744477,13.1042769,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">ECR UPHC, No.32, East Cementry Road, Ch- 21</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">East</SimpleData>
+				<SimpleData name="DIV">52</SimpleData>
+				<SimpleData name="FINAL_CODE">TB8</SimpleData>
+				<SimpleData name="NAME_ZONE">ECR</SimpleData>
+				<SimpleData name="OBJECTID">138</SimpleData>
+				<SimpleData name="OBJECTID_1">13</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">8</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">5</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2830805,13.110283,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Thiruvanmiyur UPHC,No 2,8th st,Kamaraj nagar, Thiruvanmiyur, Ch-41,D</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">South</SimpleData>
+				<SimpleData name="DIV">182</SimpleData>
+				<SimpleData name="FINAL_CODE">TB33</SimpleData>
+				<SimpleData name="NAME_ZONE">Thiruvanmiyur</SimpleData>
+				<SimpleData name="OBJECTID">140</SimpleData>
+				<SimpleData name="OBJECTID_1">14</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">33</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">13</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2571296,12.9848346,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Kotturpuram UPHC,12/23 Dhandayuthapani 2nd st Kotturpuram ch-85.HP</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">South</SimpleData>
+				<SimpleData name="DIV">172</SimpleData>
+				<SimpleData name="FINAL_CODE">TB31</SimpleData>
+				<SimpleData name="NAME_ZONE">Kotturpuram</SimpleData>
+				<SimpleData name="OBJECTID">152</SimpleData>
+				<SimpleData name="OBJECTID_1">15</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">31</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">13</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2402407,13.0229947,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Kodambakkam UPHC,Corporation Colony, Kodambakkam, Ch-24</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">West</SimpleData>
+				<SimpleData name="DIV">134</SimpleData>
+				<SimpleData name="FINAL_CODE">TB24</SimpleData>
+				<SimpleData name="NAME_ZONE">Kodambakkam</SimpleData>
+				<SimpleData name="OBJECTID">166</SimpleData>
+				<SimpleData name="OBJECTID_1">16</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">24</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">10</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.219004,13.051185,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">C.I.T  Nagar UPHC, No. 54, 4th Main Road, C.I.T. Nagar, Ch-35</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">West</SimpleData>
+				<SimpleData name="DIV">141</SimpleData>
+				<SimpleData name="FINAL_CODE">TB26</SimpleData>
+				<SimpleData name="NAME_ZONE">Lalithapuram</SimpleData>
+				<SimpleData name="OBJECTID">173</SimpleData>
+				<SimpleData name="OBJECTID_1">17</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">26</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">10</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2339271,13.0293924,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Koyambedu UPHC, No. 44, Natesa Nagar, 5th Main Road, Virugambakkam</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">West</SimpleData>
+				<SimpleData name="DIV">127</SimpleData>
+				<SimpleData name="FINAL_CODE">TB23</SimpleData>
+				<SimpleData name="NAME_ZONE">Virugambakkam</SimpleData>
+				<SimpleData name="OBJECTID">179</SimpleData>
+				<SimpleData name="OBJECTID_1">18</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">23</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">10</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.192936,13.0590105,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Semmanchery PHC,1ST Main road,opp toTsunami nagar bus stop,chennai-600119</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">South</SimpleData>
+				<SimpleData name="DIV">200</SimpleData>
+				<SimpleData name="FINAL_CODE">TB36</SimpleData>
+				<SimpleData name="NAME_ZONE">Semmanchery</SimpleData>
+				<SimpleData name="OBJECTID">181</SimpleData>
+				<SimpleData name="OBJECTID_1">19</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">36</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">15</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.21048829999999,12.8752287,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Kannagi nagar UPHC near Kannagi nagar Amma unavagam Kannakinagar,2nd main road,okkiyam thoraipakkam,ch-97</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">South</SimpleData>
+				<SimpleData name="DIV">195</SimpleData>
+				<SimpleData name="FINAL_CODE">TB35</SimpleData>
+				<SimpleData name="NAME_ZONE">Kannagi nagar</SimpleData>
+				<SimpleData name="OBJECTID">182</SimpleData>
+				<SimpleData name="OBJECTID_1">20</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">35</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">15</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.23863590000001,12.9309998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Palavakkam UPHC,East coast road, Palavakkam, Ch-41</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">South</SimpleData>
+				<SimpleData name="DIV">185</SimpleData>
+				<SimpleData name="FINAL_CODE">TB34</SimpleData>
+				<SimpleData name="NAME_ZONE">Palavakkam</SimpleData>
+				<SimpleData name="OBJECTID">186</SimpleData>
+				<SimpleData name="OBJECTID_1">21</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">34</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">14</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.253524,12.9645731,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Puzhuthivakkam UPHC,No.3.Raghavan street,Puzhuthivakkam,Ch-91</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">South</SimpleData>
+				<SimpleData name="DIV">169</SimpleData>
+				<SimpleData name="FINAL_CODE">TB30</SimpleData>
+				<SimpleData name="NAME_ZONE">Puzhuthivakkam</SimpleData>
+				<SimpleData name="OBJECTID">187</SimpleData>
+				<SimpleData name="OBJECTID_1">22</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">30</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">14</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2005982,12.9713337,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Maduravoyal UPHC(Unit office 32 Poonamalle high road),   Ch-95</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">West</SimpleData>
+				<SimpleData name="DIV">144</SimpleData>
+				<SimpleData name="FINAL_CODE">TB27</SimpleData>
+				<SimpleData name="NAME_ZONE">Maduravoyal</SimpleData>
+				<SimpleData name="OBJECTID">203</SimpleData>
+				<SimpleData name="OBJECTID_1">23</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">27</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">11</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.1664767,13.0631111,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">No 3 Church Road. Tmp Nagar, Brittania Company Back Side, Padi,Ch 50</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">Central</SimpleData>
+				<SimpleData name="DIV">87</SimpleData>
+				<SimpleData name="FINAL_CODE">TB15</SimpleData>
+				<SimpleData name="NAME_ZONE">Padi manjakuppam</SimpleData>
+				<SimpleData name="OBJECTID">207</SimpleData>
+				<SimpleData name="OBJECTID_1">24</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">15</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">7</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.17843360000001,13.0948053,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Madhavaram UPHC  Swamy Nagar, (existing health Post),Madhavaram,Ch-60.HP</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">North</SimpleData>
+				<SimpleData name="DIV">26</SimpleData>
+				<SimpleData name="FINAL_CODE">TB3</SimpleData>
+				<SimpleData name="NAME_ZONE">MADHAVARAM</SimpleData>
+				<SimpleData name="OBJECTID">217</SimpleData>
+				<SimpleData name="OBJECTID_1">25</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">3</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">3</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2301193,13.1480498,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Mannali UPHC,No.1,Nedunchezhian salai, Manali, Ch-68.HP.</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">North</SimpleData>
+				<SimpleData name="DIV">21</SimpleData>
+				<SimpleData name="FINAL_CODE">TB2</SimpleData>
+				<SimpleData name="NAME_ZONE">MANALI</SimpleData>
+				<SimpleData name="OBJECTID">222</SimpleData>
+				<SimpleData name="OBJECTID_1">26</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">2</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">2</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2579003,13.1685842,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Thiruvottiyur UPHC No.185, Thiruvottiyur High Road, Ch 19.HP</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">North</SimpleData>
+				<SimpleData name="DIV">11</SimpleData>
+				<SimpleData name="FINAL_CODE">TB1</SimpleData>
+				<SimpleData name="NAME_ZONE">THIRUVOTTIYUR</SimpleData>
+				<SimpleData name="OBJECTID">225</SimpleData>
+				<SimpleData name="OBJECTID_1">27</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">1</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">1</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.3012841,13.1574973,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Elango Nagar UPHC, No.18, DR. Ambedkar College Road, Vyasarpadi, Chennai - 39.HP</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">North</SimpleData>
+				<SimpleData name="DIV">45</SimpleData>
+				<SimpleData name="FINAL_CODE">TB6</SimpleData>
+				<SimpleData name="NAME_ZONE">Elango nagar</SimpleData>
+				<SimpleData name="OBJECTID">0</SimpleData>
+				<SimpleData name="OBJECTID_1">28</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">6</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">4</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.25959,13.110744,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Chinthathirpet UPHC, No.10,Nainiappan St, Chinthathirpet, Ch - 2,HP</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">East</SimpleData>
+				<SimpleData name="DIV">62</SimpleData>
+				<SimpleData name="FINAL_CODE">TB9</SimpleData>
+				<SimpleData name="NAME_ZONE">Chindathripet</SimpleData>
+				<SimpleData name="OBJECTID">0</SimpleData>
+				<SimpleData name="OBJECTID_1">29</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">9</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">5</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2679696,13.0749732,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Varadharajapuram  UPHC I, No.3, Station Road, Varadharajapuram, Ambattur, Chennai-50,HP</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">Central</SimpleData>
+				<SimpleData name="DIV">85</SimpleData>
+				<SimpleData name="FINAL_CODE">TB14</SimpleData>
+				<SimpleData name="NAME_ZONE">Ambathur</SimpleData>
+				<SimpleData name="OBJECTID">0</SimpleData>
+				<SimpleData name="OBJECTID_1">30</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">14</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">7</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.15349999999999,13.112624,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Triplicane UPHC,3Dr.Besant road, Triplicane .Chennai -5.D</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">Central</SimpleData>
+				<SimpleData name="DIV">116</SimpleData>
+				<SimpleData name="FINAL_CODE">TB20</SimpleData>
+				<SimpleData name="NAME_ZONE">Ice House</SimpleData>
+				<SimpleData name="OBJECTID">0</SimpleData>
+				<SimpleData name="OBJECTID_1">31</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">20</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">9</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2778035,13.051218,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Saidapet West UPHC, No. 2nd Link Street, R.R. Colony Jafferkanpet, Ch-83</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">West</SimpleData>
+				<SimpleData name="DIV">139</SimpleData>
+				<SimpleData name="FINAL_CODE">TB25</SimpleData>
+				<SimpleData name="NAME_ZONE">Saidapet west</SimpleData>
+				<SimpleData name="OBJECTID">0</SimpleData>
+				<SimpleData name="OBJECTID_1">32</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">25</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">10</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.21589400000001,13.027736,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Nanganallur UPHC,K.K.Nagar main road,Ch-114</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">West</SimpleData>
+				<SimpleData name="DIV">166</SimpleData>
+				<SimpleData name="FINAL_CODE">TB29</SimpleData>
+				<SimpleData name="NAME_ZONE">Nanganallur</SimpleData>
+				<SimpleData name="OBJECTID">0</SimpleData>
+				<SimpleData name="OBJECTID_1">33</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">29</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">12</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.18160399999999,12.974467,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Adambakkam UPHC, 153, TNHB 3rd st, ADambakkam, Ch, D.</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">South</SimpleData>
+				<SimpleData name="DIV">178</SimpleData>
+				<SimpleData name="FINAL_CODE">TB32</SimpleData>
+				<SimpleData name="NAME_ZONE">Adyar</SimpleData>
+				<SimpleData name="OBJECTID">0</SimpleData>
+				<SimpleData name="OBJECTID_1">34</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">32</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">13</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2120692,12.9915513,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">Chinna Porur, Jai Garden, Ch-116.</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">West</SimpleData>
+				<SimpleData name="DIV">153</SimpleData>
+				<SimpleData name="FINAL_CODE">TB28</SimpleData>
+				<SimpleData name="NAME_ZONE">Chinna Porur</SimpleData>
+				<SimpleData name="OBJECTID">0</SimpleData>
+				<SimpleData name="OBJECTID_1">35</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">28</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">11</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.164171,13.030794,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_tbs_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_tbs_SSSISSIISISI">
+				<SimpleData name="ADDRESS">TVK Nagar UPHC, No.1, Chandrayogi Samathi St, Sasthri Nagar, Chennai - 12,HP</SimpleData>
+				<SimpleData name="ASSET_NAME">UPHC</SimpleData>
+				<SimpleData name="DISTRICT">East</SimpleData>
+				<SimpleData name="DIV">71</SimpleData>
+				<SimpleData name="FINAL_CODE">TB11</SimpleData>
+				<SimpleData name="NAME_ZONE">Thiru-Vi-Ka Nagar</SimpleData>
+				<SimpleData name="OBJECTID">0</SimpleData>
+				<SimpleData name="OBJECTID_1">36</SimpleData>
+				<SimpleData name="REMARKS"> </SimpleData>
+				<SimpleData name="S_NO">11</SimpleData>
+				<SimpleData name="TYPE">TB</SimpleData>
+				<SimpleData name="ZONE">6</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.2452833,13.1067797,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

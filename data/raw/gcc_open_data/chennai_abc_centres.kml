@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>chennai_abc_centres.geojson</name>
+	<Schema name="chennai_abc_centres" id="J_chennai_abc_centres_SDISIISI">
+		<SimpleField type="string" name="ADDRESS"><displayName>ADDRESS</displayName>
+</SimpleField>
+		<SimpleField type="double" name="CONTACT_NO"><displayName>CONTACT_NO</displayName>
+</SimpleField>
+		<SimpleField type="int" name="DIVISION"><displayName>DIVISION</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FINAL_CODE"><displayName>FINAL_CODE</displayName>
+</SimpleField>
+		<SimpleField type="int" name="OBJECTID"><displayName>OBJECTID</displayName>
+</SimpleField>
+		<SimpleField type="int" name="S_NO"><displayName>S_NO</displayName>
+</SimpleField>
+		<SimpleField type="string" name="TYPE"><displayName>TYPE</displayName>
+</SimpleField>
+		<SimpleField type="int" name="ZONE"><displayName>ZONE</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="chennai_abc_centres_style">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>$[chennai_abc_centres/ADDRESS/displayName]</b></td><td>$[chennai_abc_centres/ADDRESS]</td></tr>
+  <tr><td><b>$[chennai_abc_centres/CONTACT_NO/displayName]</b></td><td>$[chennai_abc_centres/CONTACT_NO]</td></tr>
+  <tr><td><b>$[chennai_abc_centres/DIVISION/displayName]</b></td><td>$[chennai_abc_centres/DIVISION]</td></tr>
+  <tr><td><b>$[chennai_abc_centres/FINAL_CODE/displayName]</b></td><td>$[chennai_abc_centres/FINAL_CODE]</td></tr>
+  <tr><td><b>$[chennai_abc_centres/OBJECTID/displayName]</b></td><td>$[chennai_abc_centres/OBJECTID]</td></tr>
+  <tr><td><b>$[chennai_abc_centres/S_NO/displayName]</b></td><td>$[chennai_abc_centres/S_NO]</td></tr>
+  <tr><td><b>$[chennai_abc_centres/TYPE/displayName]</b></td><td>$[chennai_abc_centres/TYPE]</td></tr>
+  <tr><td><b>$[chennai_abc_centres/ZONE/displayName]</b></td><td>$[chennai_abc_centres/ZONE]</td></tr>
+</table>
+$[description]]]></text>
+		</BalloonStyle>
+	</Style>
+	<Placemark>
+		<styleUrl>#chennai_abc_centres_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_abc_centres_SDISIISI">
+				<SimpleData name="ADDRESS">          LLYODS ROAD</SimpleData>
+				<SimpleData name="CONTACT_NO">9445026043</SimpleData>
+				<SimpleData name="DIVISION">120</SimpleData>
+				<SimpleData name="FINAL_CODE">ABCC02</SimpleData>
+				<SimpleData name="OBJECTID">1</SimpleData>
+				<SimpleData name="S_NO">2</SimpleData>
+				<SimpleData name="TYPE"> ANIMAL BIRTH CONTROL CENTRE</SimpleData>
+				<SimpleData name="ZONE">9</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.27302779999999,13.0490561,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_abc_centres_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_abc_centres_SDISIISI">
+				<SimpleData name="ADDRESS">BASIN BRIDGE LETHAL CHAMBER</SimpleData>
+				<SimpleData name="CONTACT_NO">9445194743</SimpleData>
+				<SimpleData name="DIVISION">77</SimpleData>
+				<SimpleData name="FINAL_CODE">ABCC01</SimpleData>
+				<SimpleData name="OBJECTID">2</SimpleData>
+				<SimpleData name="S_NO">1</SimpleData>
+				<SimpleData name="TYPE"> ANIMAL BIRTH CONTROL CENTRE</SimpleData>
+				<SimpleData name="ZONE">6</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.26902629999999,13.0969135,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#chennai_abc_centres_style</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#J_chennai_abc_centres_SDISIISI">
+				<SimpleData name="ADDRESS">        KANNAMMAPET</SimpleData>
+				<SimpleData name="CONTACT_NO">9445194745</SimpleData>
+				<SimpleData name="DIVISION">141</SimpleData>
+				<SimpleData name="FINAL_CODE">ABCC03</SimpleData>
+				<SimpleData name="OBJECTID">3</SimpleData>
+				<SimpleData name="S_NO">3</SimpleData>
+				<SimpleData name="TYPE"> ANIMAL BIRTH CONTROL CENTRE</SimpleData>
+				<SimpleData name="ZONE">10</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>80.228937,13.0317807,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

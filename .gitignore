@@ -1,0 +1,16 @@
+node_modules
+dist
+.DS_Store
+.vercel
+android/app/build
+android/.gradle
+android/build
+*.keystore
+android/app/src/main/assets/models/
+android/keystore.properties
+android/keystore/
+release/*.apk
+data/raw/osm_tiles/
+*.jks
+.env
+*.log
